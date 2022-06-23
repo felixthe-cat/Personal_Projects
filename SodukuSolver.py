@@ -49,9 +49,37 @@ def analyse_row(row: list) -> list:
             number_list.remove(number)
     return number_list
 
-def merge_possible_values(number_list: list, number_list1: list) -> list:
-# to merge the results of analyse_row function for the row and column of a certain value. 
-    return [x for x in number_list if x in number_list1]
+def analyse_3x3_box(row_index: int, column_index:int) -> list:
+    number_list = [1,2,3,4,5,6,7,8,9]
+    box_row = row_index // 3
+    box_column = column_index // 3
+    for row_index1 in range(box_row*3,box_row*3+3):
+        for column_index1 in range(box_column*3,box_column*3+3):
+            # print(sudoku[row_index1][column_index1])
+            if sudoku[row_index1][column_index1] in number_list:
+                number_list.remove(sudoku[row_index1][column_index1])
+# debugging tool 
+    # if row_index ==0 and column_index ==0:
+    #     print('\nThe Box analyssis is: for row '+str(row_index)+' '+str(column_index))
+    #     print('The box_row and box_column is '+str(box_row)+' '+ str(box_column))
+    #     print(number_list)
+    return number_list
+    
+
+def merge_possible_values(number_list: list, number_list1: list, number_list2: list) -> list:
+# to merge the results of analyse_row function for the row and column of a certain value.
+    tmp_list = [x for x in number_list if x in number_list1]
+    output = []
+    for number in tmp_list:
+        for number1 in number_list2:
+            if number == number1:
+                output.append(number)
+    # print('The numebr lists are: ')
+    # print(number_list, number_list1, number_list2)
+    # print('the output is: ')
+    # print(tmp_list)
+    # print(output)
+    return output 
 
 def transpose_sudoku(sudoku: list) -> list:
 # to exchange the row and coolumn value of the grid
@@ -66,7 +94,7 @@ def update_possible_values(grid_possible_values: list, row_index: int, column_in
 # calls a function to update possible_values list (possible_values: list, coordinates: list) -> (possible_values: list)
     transposed_sudoku = transpose_sudoku(sudoku)
     if sudoku[row_index][column_index] == 0:
-        grid_possible_values[row_index][column_index] = merge_possible_values(analyse_row(sudoku[row_index]),analyse_row(transposed_sudoku[column_index]))
+        grid_possible_values[row_index][column_index] = merge_possible_values(analyse_row(sudoku[row_index]),analyse_row(transposed_sudoku[column_index]),analyse_3x3_box(row_index, column_index))
     else:
         grid_possible_values[row_index][column_index] = 0
     return grid_possible_values
@@ -87,6 +115,25 @@ def fill_in_answer_and_update_grid_possible_values(possible_values: int, row_ind
     for i in range(9):
         print(grid_possible_values[i])
     return 
+
+def row_col_box_possible_list_generator(grid_possible_values: list,row_index: int, column_index: int)-> int:
+# returns the three lists of possible_values in the same row, column and box from the specific coordinate, NOT including itself
+    row_possible_list = grid_possible_values[row_index][:column_index] + grid_possible_values[row_index][column_index:]
+    col_possible_list = transpose_sudoku(grid_possible_values)[column_index][:row_index] + transpose_sudoku(grid_possible_values)[column_index][row_index:]
+    box_possible_list = []
+    
+    box_row = row_index // 3
+    box_column = column_index // 3
+    for row_index1 in range(box_row*3,box_row*3+3):
+        for column_index1 in range(box_column*3,box_column*3+3):
+            if row_index1 != row_index or column_index != column_index1:
+                box_possible_list.append(grid_possible_values[row_index1][column_index1])
+            # debugging tool 
+            # else:
+                # print(column_index, column_index1, row_index, row_index1)
+    return [row_possible_list, col_possible_list, box_possible_list]
+    
+
 def check_completeness(sudoku: list) -> bool:
     # print_grid(sudoku)
     for row in sudoku:
@@ -96,24 +143,29 @@ def check_completeness(sudoku: list) -> bool:
     # print('True')
     return True 
 
-def solve(sudoku: list) -> list:
-# solves all the values in sudoku and returns the result out
-    transposed_sudoku = transpose_sudoku(sudoku)
-    grid_possible_values = []
-    # calls a function on all locations to analyse the possible values the specific slot can be (coordinates: list, sudoku: list) -> (possible_values: list)
+def generate_grid_possible_values(sudoku: list)-> list:
+# calls a function on all locations to analyse the possible values the specific slot can be (coordinates: list, sudoku: list) -> (possible_values: list)
+    grid_possible_values =[]
     for row_index, row in enumerate(sudoku):
         grid_possible_values.append([])
         for column_index, number in enumerate(row):
             grid_possible_values[-1].append([])
             # print(column_index)
             grid_possible_values = update_possible_values(grid_possible_values, row_index, column_index)
+    return grid_possible_values
+
+def solve(sudoku: list) -> list:
+# solves all the values in sudoku and returns the result out
+    transposed_sudoku = transpose_sudoku(sudoku)
+    grid_possible_values = generate_grid_possible_values(sudoku)
+    
     # Testing the functions for analyse_row,merge_possible_values and variable grid_possible_values
     
-    # print(analyse_row(sudoku[8]),analyse_row(transposed_sudoku[8]))
-    # print(merge_possible_values(analyse_row(sudoku[8]),analyse_row(transposed_sudoku[8])))
-    # print('\n Printing grid_possible_values:')
-    # for i in range(9):
-    #     print(grid_possible_values[i])
+        # print(analyse_row(sudoku[8]),analyse_row(transposed_sudoku[8]))
+        # print(merge_possible_values(analyse_row(sudoku[8]),analyse_row(transposed_sudoku[8]), analyse_3x3_box(8,8)))
+        # print('\n Printing grid_possible_values:')
+        # for i in range(9):
+        #     print(grid_possible_values[i])
         
     # calls a function to scan all the possible_values list for a suitable value for one slot and returns the corrected sudoku  (possible_values: list, sudoku: list) -> ( coordinates: list, sudoku: list)
     # calls a function to check for any 0s in the sudoku (sudoku: list) -> (complete: bool)
@@ -124,10 +176,14 @@ def solve(sudoku: list) -> list:
                 if type(possible_values) == list:
                     if len(possible_values) == 1:
                         fill_in_answer_and_update_grid_possible_values(possible_values[0], row_index, column_index, grid_possible_values)
+                    realted_list = row_col_box_possible_list_generator(grid_possible_values,row_index, column_index)
+                    
         if check_completeness(sudoku) == True:
             break
+    # to print out the grid of possible values
     for i in range(9):
-        print(grid_possible_values[i])
+        print(grid_possible_values[i], end='\n\n')
+        
     return 
 
 def check_validity_on_row(sudoku: list) -> bool:
@@ -165,8 +221,11 @@ def check_data_validity(data: list):
 def allocate_debugging_data(sudoku: list):
     data = '500467309 903810427 174203000 231976854 857124090 496308172 000089260 782641005 010000708'
     data_very_hard = '000801000 000000043 500000000 000070800 000000100 020030000 600000075 003400000 000200600'
+    data_for_box_analysis = '012000000 345000000 678000000 000000000 000000000 000000000 000000000 000000000 000000000'
     # link at: https://images.app.goo.gl/DmzxJFVMcmPXDYjM7
-    chosen_data = data1
+    data_medium = '000500006 000870302 270300081 000034900 793050614 008790000 920003057 506087000 300005000'
+    # https://www.canstockphoto.com/sudoku-game-with-answers-simple-vector-82405983.html
+    chosen_data = data_medium
     formatted_data = chosen_data.split()
     check_data_validity(formatted_data)
     for row in range(9):
@@ -177,9 +236,18 @@ def allocate_debugging_data(sudoku: list):
 sudoku = []
 allotcate_placeholder_data(sudoku)
 allocate_debugging_data(sudoku)
+
+# debug process
+grid_possible_values =generate_grid_possible_values(sudoku)
+for i in row_col_box_possible_list_generator(grid_possible_values,2,6):
+    print (i)
+exit()
+
+
 # ask_and_allocate(sudoku)
 check_validity(sudoku)
 print_grid(sudoku)
 solve(sudoku)
 check_validity(sudoku)
 print_grid(sudoku)
+print('\nRemember ot change the range back to 10 or something')
