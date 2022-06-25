@@ -1,3 +1,5 @@
+import copy 
+
 # from tabulate import tabulate
 def print_separating_row():
 # print the separating row of the grid 
@@ -90,36 +92,36 @@ def transpose_sudoku(sudoku: list) -> list:
             output[column][row] = sudoku[row][column]
     return output
     
-def update_possible_values(grid_possible_values: list, row_index: int, column_index: int):
+def update_possible_values(dummy_grid_possible_values: list, row_index: int, column_index: int, sudoku: list):
 # calls a function to update possible_values list (possible_values: list, coordinates: list) -> (possible_values: list)
     transposed_sudoku = transpose_sudoku(sudoku)
     if sudoku[row_index][column_index] == 0:
-        grid_possible_values[row_index][column_index] = merge_possible_values(analyse_row(sudoku[row_index]),analyse_row(transposed_sudoku[column_index]),analyse_3x3_box(row_index, column_index))
+        dummy_grid_possible_values[row_index][column_index] = merge_possible_values(analyse_row(sudoku[row_index]),analyse_row(transposed_sudoku[column_index]),analyse_3x3_box(row_index, column_index))
     else:
-        grid_possible_values[row_index][column_index] = 0
-    return grid_possible_values
+        dummy_grid_possible_values[row_index][column_index] = 0
+    return dummy_grid_possible_values
 
-def fill_in_answer_and_update_grid_possible_values(possible_values: int, row_index: int, column_index: int, grid_possible_values: list):
+def fill_in_answer_and_update_grid_possible_values(possible_values: int, row_index: int, column_index: int, dummy_grid_possible_values: list, sudoku: list):
 #fill in the answer on the sudoku 
     sudoku[row_index][column_index] = possible_values
-    # update whole row and column for the grid_possible_values
+    # update whole row and column for the dummy_grid_possible_values
     
-    # update_possible_values(grid_possible_values, row_index, column_index)
+    # update_possible_values(dummy_grid_possible_values, row_index, column_index)
     for i in range(9):
         # top to bottom
-        grid_possible_values = update_possible_values(grid_possible_values, i, column_index)
+        dummy_grid_possible_values = update_possible_values(dummy_grid_possible_values, i, column_index, sudoku)
         # left to right
-        grid_possible_values = update_possible_values(grid_possible_values, row_index, i)
+        dummy_grid_possible_values = update_possible_values(dummy_grid_possible_values, row_index, i, sudoku)
         
     print('\nreplaced location is '+str(row_index)+','+str(column_index)+' with the value of ',possible_values)
     for i in range(9):
-        print(grid_possible_values[i])
+        print(dummy_grid_possible_values[i])
     return 
 
 def row_col_box_possible_list_generator(grid_possible_values: list,row_index: int, column_index: int)-> int:
 # returns the three lists of possible_values in the same row, column and box from the specific coordinate, NOT including itself
-    row_possible_list = grid_possible_values[row_index][:column_index] + grid_possible_values[row_index][column_index:]
-    col_possible_list = transpose_sudoku(grid_possible_values)[column_index][:row_index] + transpose_sudoku(grid_possible_values)[column_index][row_index:]
+    row_possible_list = grid_possible_values[row_index][:column_index] + grid_possible_values[row_index][column_index+1:]
+    col_possible_list = transpose_sudoku(grid_possible_values)[column_index][:row_index] + transpose_sudoku(grid_possible_values)[column_index][row_index+1:]
     box_possible_list = []
     
     box_row = row_index // 3
@@ -151,11 +153,46 @@ def generate_grid_possible_values(sudoku: list)-> list:
         for column_index, number in enumerate(row):
             grid_possible_values[-1].append([])
             # print(column_index)
-            grid_possible_values = update_possible_values(grid_possible_values, row_index, column_index)
+            grid_possible_values = update_possible_values(grid_possible_values, row_index, column_index, sudoku)
     return grid_possible_values
 
-def solve(sudoku: list) -> list:
+def contains_duplicate(target_pointer: int, neighbour_possible_value: list) -> bool :
+    for tmp_pointer in neighbour_possible_value:
+        # print('target_pointer is', target_pointer, 'tmp_pointer is', tmp_pointer)
+        if target_pointer == tmp_pointer:
+            return True
+    return False 
+        
+
+def find_uniqueness(target_list: list, related_list: list)-> int: 
+    for target_pointer in target_list:
+        # print('target_pointer is', target_pointer)
+        unique = True 
+        for neighbour_possible_value in related_list:
+            if type(neighbour_possible_value) == list:
+                if contains_duplicate(target_pointer, neighbour_possible_value):
+                    # print('neighbour_possible_value is', neighbour_possible_value)
+                    # print('target_pointer is', target_pointer, 'and it is duplicated')
+                    unique = False
+                    break
+        if unique == True:
+            # print('UNIQUE')
+            return target_pointer
+    return 0
+        
+def check_contradiction(dummy_grid_possible_values: list) -> bool:
+    for row in dummy_grid_possible_values:
+        for pointer in row:
+            if pointer != 0:
+                if len(pointer) == 0:
+                    print('The element found to be invalid is', pointer, 'in', row)
+                    return True
+    return False
+                
+
+def method_one(sudoku: list) -> list:
 # solves all the values in sudoku and returns the result out
+    print('Start of Method 1')
     transposed_sudoku = transpose_sudoku(sudoku)
     grid_possible_values = generate_grid_possible_values(sudoku)
     
@@ -163,28 +200,128 @@ def solve(sudoku: list) -> list:
     
         # print(analyse_row(sudoku[8]),analyse_row(transposed_sudoku[8]))
         # print(merge_possible_values(analyse_row(sudoku[8]),analyse_row(transposed_sudoku[8]), analyse_3x3_box(8,8)))
-        # print('\n Printing grid_possible_values:')
-        # for i in range(9):
-        #     print(grid_possible_values[i])
+    print('\n Printing grid_possible_values:')
+    for i in range(9):
+        print(grid_possible_values[i])
         
     # calls a function to scan all the possible_values list for a suitable value for one slot and returns the corrected sudoku  (possible_values: list, sudoku: list) -> ( coordinates: list, sudoku: list)
     # calls a function to check for any 0s in the sudoku (sudoku: list) -> (complete: bool)
-    # while True:
-    for _ in range(10):
+    
+    while True:
+        # Method 1: only analysing possible values
+        updated = False
         for row_index, row in enumerate(grid_possible_values):
             for column_index, possible_values in enumerate(row):
                 if type(possible_values) == list:
                     if len(possible_values) == 1:
-                        fill_in_answer_and_update_grid_possible_values(possible_values[0], row_index, column_index, grid_possible_values)
-                    realted_list = row_col_box_possible_list_generator(grid_possible_values,row_index, column_index)
-                    
-        if check_completeness(sudoku) == True:
+                        fill_in_answer_and_update_grid_possible_values(possible_values[0], row_index, column_index, grid_possible_values, sudoku)
+                        updated = True
+                        continue
+                    related_list = row_col_box_possible_list_generator(grid_possible_values,row_index, column_index)
+                    for i in range(3):
+                        if find_uniqueness(grid_possible_values[row_index][column_index], related_list[i]) != 0:
+                            fill_in_answer_and_update_grid_possible_values(find_uniqueness(grid_possible_values[row_index][column_index], related_list[i]), row_index, column_index, grid_possible_values, sudoku)
+                            updated = True
+                            break 
+                    if check_contradiction(grid_possible_values):
+                        print('Checked to be invalid by check_contradiction function')
+                        return [False,]
+        if updated == False:
             break
-    # to print out the grid of possible values
+    # to prxint out the grid of possible values
+    print('\nGrid of possible values at the end is:')
     for i in range(9):
         print(grid_possible_values[i], end='\n\n')
-        
-    return 
+    print('End of Method 1')
+    return [True,sudoku]
+
+def recursive_solving(grid_possible_values: list, trial_history: list, board_history: tuple, grid_possible_values_history: tuple, trial_value_history: dict, times_called: int):
+    
+    times_called += 1
+    print('------------------------------------------------------------------------', times_called)
+    
+    row_index = 0
+    column_index = 0
+    while True:
+        possible_values = grid_possible_values[row_index][column_index]
+        if type(possible_values) == list:
+            print('\nGrid of possible values at initiation is:')
+            for i in range(9):
+                print(grid_possible_values[i], end='\n\n')
+            print('possible_values are', possible_values)
+            trial_value = possible_values[0]
+            trial_history.append((row_index, column_index))
+            if len(grid_possible_values[row_index][column_index]) != 1:
+                grid_possible_values[row_index][column_index].pop(0)
+            else: 
+                grid_possible_values[row_index][column_index] = 0
+            trial_value_history[trial_history[-1]] = trial_value
+            
+            # print('trial_value is', trial_value)
+            # print('trial_history is', trial_history)
+            # print('trial_value_history', trial_value_history)
+            # print('\nGrid of possible values after popping is:')
+            for i in range(9):
+                print(grid_possible_values[i], end='\n\n')
+            # Reset grid_possible_values and sudoku
+            tmp_grid_possible_values = copy.deepcopy(grid_possible_values)
+            tmp_sudoku = copy.deepcopy(board_history[-1])
+            # print('\n\nSudoku before Error')
+            # print(sudoku)
+            print_grid(sudoku)
+            fill_in_answer_and_update_grid_possible_values(trial_value, row_index, column_index, tmp_grid_possible_values, tmp_sudoku)
+            grid_possible_values = list(grid_possible_values_history)
+            sudoku_validity = method_one(tmp_sudoku)
+            print('sudoku_validity[0] is', sudoku_validity[0])
+            if not sudoku_validity[0]:
+                print('Sudoku not valid by back Propagation')
+                # print('Trial value is')
+                # print('trial_value is', trial_value)
+                # print('trial_history is', trial_history)
+                # print('trial_value_history', trial_value_history)
+                # print('\nGrid of possible values after one Propagation is:')
+                # for i in range(9):
+                #     print(grid_possible_values[i], end='\n\n')
+                
+                return recursive_solving(grid_possible_values, trial_history, board_history, grid_possible_values_history, trial_value_history, times_called)
+            else:
+                print('End of Recursive_solving')
+                return sudoku_validity[1]
+        else:
+            if column_index != 8:
+                column_index += 1
+            else: 
+                column_index = 0
+                row_index += 1
+    print('Stuck in While Loop')
+
+def method_two(sudoku: list) -> list:
+# Method 2: Back Propagation
+# when method 1 no longer works:
+    # initial setup 
+    transposed_sudoku = transpose_sudoku(sudoku)
+    grid_possible_values = generate_grid_possible_values(sudoku)
+    
+    trial_history = []
+    board_history = tuple([sudoku])
+    grid_possible_values_history = tuple(grid_possible_values)
+    trial_value_history = {}
+    
+    # debugging tool 
+    print('board_history before error')
+    print(board_history)
+    
+    # recursive
+    times_called = 0
+    answer = recursive_solving(grid_possible_values, trial_history, board_history, grid_possible_values_history, trial_value_history, times_called)
+    # while True: 
+    #     results = recursive_solving(grid_possible_values)
+    #     if not results[0]:
+    #         grid_possible_values = results[1]
+    #         recursive_solving(grid_possible_values)
+    #         exit()
+    print('End of Method 2')
+    return answer
 
 def check_validity_on_row(sudoku: list) -> bool:
 # checks the validity of sudoku in a row by checking whether there is repeated value
@@ -224,8 +361,8 @@ def allocate_debugging_data(sudoku: list):
     data_for_box_analysis = '012000000 345000000 678000000 000000000 000000000 000000000 000000000 000000000 000000000'
     # link at: https://images.app.goo.gl/DmzxJFVMcmPXDYjM7
     data_medium = '000500006 000870302 270300081 000034900 793050614 008790000 920003057 506087000 300005000'
-    # https://www.canstockphoto.com/sudoku-game-with-answers-simple-vector-82405983.html
-    chosen_data = data_medium
+    # https://www.canstockphoto.com/sudoku-game-with-answers-simple-vector-82405983.html 000500006 000870302 270300081 000034900 793050614 008790000 920003057 506087000 300005000
+    chosen_data = data_very_hard
     formatted_data = chosen_data.split()
     check_data_validity(formatted_data)
     for row in range(9):
@@ -238,16 +375,27 @@ allotcate_placeholder_data(sudoku)
 allocate_debugging_data(sudoku)
 
 # debug process
-grid_possible_values =generate_grid_possible_values(sudoku)
-for i in row_col_box_possible_list_generator(grid_possible_values,2,6):
-    print (i)
-exit()
+    # grid_possible_values = generate_grid_possible_values(sudoku)
+    # row_index = 2
+    # column_index = 6
+    # related_list = row_col_box_possible_list_generator(grid_possible_values,row_index,column_index)
+    # for i in related_list:
+    #     print (i)
+    # if find_uniqueness(grid_possible_values[row_index][column_index], related_list[1]) != 0:
+        
+    #     fill_in_answer_and_update_grid_possible_values(find_uniqueness(grid_possible_values[row_index][column_index], related_list[1]), row_index, column_index, grid_possible_values)
+    
+    # exit()
 
 
 # ask_and_allocate(sudoku)
 check_validity(sudoku)
 print_grid(sudoku)
-solve(sudoku)
+method_one(sudoku)
+if check_completeness(sudoku) == False:
+    print('Back Propagation Starts: ')
+    sudoku = method_two(sudoku)
+    # sudoku = copy.deepcopy(method_two(sudoku))
+    print('End of the whole thing')
 check_validity(sudoku)
 print_grid(sudoku)
-print('\nRemember ot change the range back to 10 or something')
