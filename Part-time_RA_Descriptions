@@ -1,0 +1,532 @@
+Topic: Waves and Vibration Transmission in Periodic Structures
+
+Transverse Vibration Waves in 1D String ( https://wvtps-iitd.vlabs.ac.in/exp/waves-1d-string/ ) 
+Description: This simulation displays the behavior of a one-dimensional elastic string that does not transmit or resist bending moments. Equations that describe the motion are also provided.
+
+Free Vibration of the circular plate ( https://wvtps-iitd.vlabs.ac.in/exp/circular-plate/ ) 
+Description: This simulation displays the free vibration of circular plates and provides equations of Classical Plate Theory that describe the behavior using polar coordinates
+
+Free Vibration of Square plate ( https://wvtps-iitd.vlabs.ac.in/exp/square-plate/ ) 
+Description: This simulation based experiment aims to study the free vibration of a square plate.
+
+Free Vibration of Beam ( https://wvtps-iitd.vlabs.ac.in/exp/vibration-of-beam/ ) 
+Description: This simulation displays the behavior of a beam under free vibration. Natural frequency is calculated with different end conditions on this website.
+
+Waves in one dimensional lattice ( https://wvtps-iitd.vlabs.ac.in/exp/one-dimensional-lattice/ ) 
+Description: This simulation displays the behavior of a one-dimensional lattice under free vibration. The natural frequency of the lattice is calculated to aid understanding.
+
+Vibration absorption ( https://wvtps-iitd.vlabs.ac.in/exp/vibration-absorption/ ) 
+Description: This simulation displays the behavior of a vibration absorber (both damped and undamped) and explains how the energy of a main system can be transferred to a secondary system, reaching a dampening effect.
+
+Flexural waves in beam ( https://wvtps-iitd.vlabs.ac.in/exp/flexural-waves/ ) 
+Description: This simulation displays the behavior of flexural wave propagation through Euler Bernoulli beams. 
+
+
+
+Topic: Concrete Structures
+
+Compressive Strength Test of Concrete (Cube) ( https://cs-iitd.vlabs.ac.in/exp/cube-test/ ) 
+Description: This simulation shows the procedures of the Compressive Strength Test of a concrete cube and explores the possible outcomes of the test. Equations are provided to describe the behaviour. 
+
+Flexural Strength Test of Concrete (Beam) ( https://cs-iitd.vlabs.ac.in/exp/flexural-strength-test/ ) 
+Description: This simulation shows the procedures of the Flexural Strength Test of a concrete beam and explores the possible outcomes of the test. Equations are provided to describe the behaviour. 
+
+Split Tensile Strength Test of Concrete (Cylinder) ( https://cs-iitd.vlabs.ac.in/exp/tensile-strength-test/ ) 
+Description: This simulation shows the procedures of the Split Tensile Strength Test of a concrete cylinder and explores the possible outcomes of the test. Equations are provided to describe the behaviour. 
+
+Rebound Hammer Test of Concrete ( https://cs-iitd.vlabs.ac.in/exp/rebound-hammer-test/ ) 
+Description: This simulation shows the procedures of the Rebound Hammer Test of concrete and explores the possible outcomes as well as the acceptable range of results. 
+
+Ultrasonic Pulse Testing of Concrete ( https://cs-iitd.vlabs.ac.in/exp/pulse-velocity-test/ ) 
+Description: This simulation shows the procedures of the Split Tensile Strength Test of a concrete cylinder and explores the possible outcomes of the test. Equations are provided to describe the behaviour. 
+
+Static Modulus of Elasticity of Concrete in Compression ( https://cs-iitd.vlabs.ac.in/exp/elasticity-in-compression/ ) 
+Description: This simulation shows the testing procedures for the Static Modulus of Elasticity of concrete in compression and explains the loading profile involved.
+
+
+
+Topic: Hydraulics and Fluid Mechanics Lab
+
+Bernoulli's Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/bernoullis/ ) 
+Description: This simulation demonstrates the variation of the pressure along a converging pipe section. Bernoulli’s equation is used to explain and predict the water level.
+
+Venturi Meter Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/venturi-meter/ ) 
+Description: This simulation shows liquid flowing through a Venturi Meter and how it is used to determine the flow rate of fluid down a pipe.
+
+Orifices Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/orifices/ ) 
+Description: This simulation shows liquid flowing through a mouthpiece and how it can be used to determine the flow rate of fluid down a pipe. It also determines the coefficient of discharge. 
+
+Mouthpieces Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/mouthpieces/ ) 
+Description: A mouth piece is a short length of the pipe about three times its diameter connected to the face of an orifice, which is provided in the side or bottom of the vessel. It is used for the measurement of discharge of large quantities of liquid since; the rate of discharge through a mouth piece will be more than that of an orifice, for the same diameter and head. 
+
+Weirs Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/weirs/ ) 
+Description: This simulation shows liquid flowing through a Broad crested weird and calculates the coefficient of discharge. 
+
+Channels Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/channels/ ) 
+Description: This simulation shows an Open Channel Flow. Diagrams and illustrations are used to explain the water flow in such a system.
+
+Reynold's Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/reynolds/ ) 
+Description: This simulation shows a pipe flow with variable Reynolds number, which is used to depict laminar flow and turbulent flow.
+
+Jets Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/jets/ )
+
+Description: This simulation shows a jet experiment that is used to verify the momentum equation.
+
+Turbines Experiment ( https://eerc03-iiith.vlabs.ac.in/exp/turbines/ )
+
+Description: This simulation displays the different characteristics of different openings of the nozzle at a constant input head.
+
+
+Topic: Basic Engineering Mechanics and Strength Of Materials
+
+Tensile Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/tensile-test-experiment/ ) 
+Description: A tensile test, also known as tension test, is probably the most fundamental type of mechanical test you can perform on material. Tensile tests are simple, relatively inexpensive, and fully standardized. By pulling on something, you will very quickly determine how the material will react to forces being applied in tension. As the material is being pulled, you will find its strength along with how much it will elongate. Tensile testing is one of the more basic tests to determine stress-strain relationships. A simple uniaxial test consists of slowly pulling a sample of material in tension until it breaks.
+
+Compression Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/compression-test-experiment/ ) 
+Description: A compression test is a method for determining the behavior of materials under a compressive load. Compression tests are conducted by loading the test specimen between two plates and then applying a force to the specimen by moving the crossheads together. The compression test is used to determine elastic limit, proportionality limit, yield point, yield strength and compressive strength.
+
+Shear Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/shear-test-experiment/ ) 
+Description: Description: This simulation shows the procedures for conducting a Shear Test on specimens under double shear.
+
+Torsion Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/torsion-test-experiment/ ) 
+Description: Testing of round circular samples is another method of determining a basic engineering relationship in structural materials. Unlike tensile testing, torsional tests are not complicated by the phenomenon of necking and reduction in areas.
+
+Impact Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/impact-eest-experiment/ ) 
+Description: Description: This simulation determines the Impact toughness (strain energy) through the Izod test.
+
+Creep Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/creep-test-experiment/ ) 
+Description: This simulation inspects the property of creep in metals. Creep is defined as the long term deformation of a member due to the sustained load. This takes place only when there is a load placed on a member at a single point for longer period of time. In the following experiment a member of certain material is taken for testing. Load is applied at point of member and the extension is noted every minute.
+
+Fatigue Test Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/fatigue-test-experiment/ ) 
+Description: 
+
+Compression Test on Spring Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/compression-test-spring-experiment/ ) 
+Description: A coil spring, also known as a helical spring, is a mechanical device that is typically used to store energy and subsequently release it, absorb shock, or maintain a force between surfaces in contact. They are made of an elastic material formed into the shape of a helix, which returns to its natural length when unloaded.
+
+Principal Stresses Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/principal-stresses-experiment/ )
+
+Description: This simulation investigate the principal stress at any given point of a structural element or machine component when it is in a state of plane stress.
+
+Rockwell Hardness Experiment ( https://eerc01-iiith.vlabs.ac.in/exp/rockwell-hardness-experiment/ )
+
+Description: This simulation shows the Rockwell Test, which is an indentation test used for smaller specimens and harder materials to measure its resistance to deformation.
+
+
+Topic: Soil Mechanics
+
+Water Content ( https://smfe-iiith.vlabs.ac.in/exp/water-content/ ) 
+Description: This experiment is done to determine the water content of the soil by the oven drying method.
+
+Unit Weight ( https://smfe-iiith.vlabs.ac.in/exp/unit-weight/ ) 
+Description: To determine the field density or unit weight of soil by the core cutter method.
+
+Specific Gravity ( https://smfe-iiith.vlabs.ac.in/exp/specific-gravity/ ) 
+Description: To determine the specific gravity of soil using the pycnometer method.
+
+Grain Size Distribution ( https://smfe-iiith.vlabs.ac.in/exp/grain-size-distribution/ ) 
+Description: To determine the percentage of various size particles in a soil sample, its coefficient of curvature and uniformity coefficient. 
+
+Atterberg Limits ( https://smfe-iiith.vlabs.ac.in/exp/atterberg-limits/ ) 
+Description: To determine the liquid and plastic limits of a given soil sample.
+
+Permeability ( https://smfe-iiith.vlabs.ac.in/exp/permeability/ ) 
+Description: To determine the coefficient of permeability of a given soil sample by variable head permeability test and constant head permeability test.
+
+Compaction Test ( https://smfe-iiith.vlabs.ac.in/exp/compaction-test/ ) 
+Description: To determine the Optimum Moisture Content (OMC) and maximum dry density of a soil sample by the standard Proctor compaction test.
+
+Consolidation Test ( https://smfe-iiith.vlabs.ac.in/exp/consolidation-test/ ) 
+Description: To determine the settlements due to primary consolidation of soil by conducting one dimensional test to determine:
+
+Direct Shear Test ( https://smfe-iiith.vlabs.ac.in/exp/direct-shear-test/ ) 
+Description: To determine the shear strength parameters of a given soil sample by the Direct Shear Test.
+
+Triaxial Test ( https://smfe-iiith.vlabs.ac.in/exp/triaxial-test/ ) 
+Description: To find the shear of the soil by Undrained Triaxial Test.
+
+
+Topic: Fluid Mechanics Lab
+
+Calibration of V notch ( https://fm-nitk.vlabs.ac.in/exp/calibration-of-v-notch/ ) 
+Description: To determine the coefficient of discharge of V-notch.
+
+Calibration of Rectangular notch ( https://fm-nitk.vlabs.ac.in/exp/calibration-rectangular-notch/ ) 
+Description: To determine the coefficient of discharge of Rectangular notch.
+
+Impact of jet ( https://fm-nitk.vlabs.ac.in/exp/impact-of-jet/ ) 
+Description: To determine the coefficient of impact of jet on vanes.
+
+Friction In pipes ( https://fm-nitk.vlabs.ac.in/exp/friction-in-pipes/ ) 
+Description: To determine friction in pipes.
+
+Venturimeter ( https://fm-nitk.vlabs.ac.in/exp/venturimeter/ ) 
+Description: To determine the coefficient of discharge of given venturimeter.
+
+
+
+Topic: Transportation Engineering
+
+Crushing Value of Aggregate ( https://ts-nitk.vlabs.ac.in/exp/crushing-value/ ) 
+Description: To assess the strength of coarse aggregates used in the pavement components under gradually applied load and to determine the aggregates crushing value of the given sample of aggregates.  
+
+Impact Test on Aggregate ( https://ts-nitk.vlabs.ac.in/exp/impact-test/ ) 
+Description: To evaluate the toughness of aggregates to break down under application of impact and to determine aggregate impact value of the given sample of aggregate. 
+
+Los Angeles Abrasion Test on Aggregate ( https://ts-nitk.vlabs.ac.in/exp/los-angeles-abrasion/ ) 
+Description: To determine the abrasion value of coarse aggregate by using Los - Angeles testing machine with an abrasive charge. 
+
+Ductility Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/ductility-test/ ) 
+Description: To determine the ductility value of asphaltic bitumen.
+
+Softening Point Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/softening-point-test/ ) 
+Description: To determine the softening point of the given sample of bitumen.  
+
+Penetration Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/penetration-test/ ) 
+Description: To determine consistency of bitumen or the grade of the bitumen by penetration test. 
+
+Specific Gravity Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/specific-gravity-test/ ) 
+Description: To determine the specific gravity of the given sample of bitumen.   
+
+California Bearing Ratio Test on Soil ( https://ts-nitk.vlabs.ac.in/exp/california-bearing-ratio-test/ ) 
+Description: To determine California Bearing Ratio value of soil by conducting load penetration test.
+
+
+
+Topic: Environmental Engineering 1
+
+Determination of TS,TDS and TSS in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-ts/ ) 
+Description: To determine Total Solids (TS), Total Dissolved Solids (TDS), Total Suspended Solids (TSS), Volatile Suspended Solids (VSS) and Fixed Suspended Solids (FSS) in the given water sample. 
+
+Determination of Alkalinity in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-alkalinity/ ) 
+Description: To determine acid neutralizing capacity of given water sample.  
+
+Determination of Hardness in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-hardness/ ) 
+Description: To determine the amount of Total Hardness present in a given water sample by EDTA Titration method.   
+
+Determination of Chloride in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-chloride/ ) 
+Description: To determine Chloride Ion Concentration in a water sample by Mohr's method. 
+
+Determination of Total Iron in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-total-iron/ ) 
+Description: To determine concentration of Total Iron content in water sample by Spectrophotometric method.   
+
+Determination of pH ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-ph/ ) 
+Description: To determine the pH value of given solutions using pH meter.    
+
+Determination of Biological Oxygen Demand ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-biological-oxygen/ ) 
+Description: To find the Biological Oxygen Demand exerted by the given sample of waste water. 
+
+
+
+Topic: Environmental Engineering 2
+
+Determination of Chemical Oxygen Demand ( https://ee2-nitk.vlabs.ac.in/exp/chemical-oxygen/ ) 
+Description: To determine the Chemical Oxygen Demand of the given water sample. 
+
+Alum Coagulation ( https://ee2-nitk.vlabs.ac.in/exp/alum-coagulation/ ) 
+Description: To determine the optimum Alum dosage for water or waste water treatment by Jar test. 
+
+Determination of Break-Point Chloride demand in water ( https://ee2-nitk.vlabs.ac.in/exp/chloride-demand-in-water/ ) 
+Description: To determine Break-Point Chlorine Demand in water sample.  
+
+Determination of Sulphate in water ( https://ee2-nitk.vlabs.ac.in/exp/sulphate-in-water/ ) 
+Description: To determine Sulphate ion concentration in the given sample by Turbidimetric method. 
+
+Determination of Flouride in water ( https://ee2-nitk.vlabs.ac.in/exp/flouride-in-water/ ) 
+Description: To determine Fluoride concentration in the given water sample by Ion Selective Method.   
+
+Determination of Dissolved Oxygen in water ( https://ee2-nitk.vlabs.ac.in/exp/oxygen-in-water/ ) 
+Description: To estimate Dissolved Oxygen (DO) level in the given water sample by Winkler's Method.   
+
+Determination of Turbidity in water ( https://ee2-nitk.vlabs.ac.in/exp/turbidity-in-water/ ) 
+Description: To determine the Turbidity of the given water sample using Nephelometer.     
+
+
+
+Topic: Fluid Machinery Lab
+
+Performance Characteristics of Centrifugal Pump ( https://fmc-nitk.vlabs.ac.in/exp/centrifugal-pump/ ) 
+Description: To conduct the performance test on centrifugal pump and to plot the operating characteristics. 
+
+Performance Characteristics of Hydraulic Ram ( https://fmc-nitk.vlabs.ac.in/exp/hydraulic-ram/ ) 
+Description: To conduct the performance test on hydraulic ram and to plot the operating characteristics.  
+
+Performance Characteristics of Kaplan Turbine ( https://fmc-nitk.vlabs.ac.in/exp/kaplan-turbine/ ) 
+Description: To conduct the performance test on kaplan turbine under constant head and to plot the operating characteristics.  
+
+Double Acting Reciprocating Pump ( https://fmc-nitk.vlabs.ac.in/exp/reciprocating-pump/ ) 
+Description: To conduct a performance test on double acting reciprocating pump and to plot the operating characteristics.
+
+Performance Characteristics of Pelton Turbine ( https://fmc-nitk.vlabs.ac.in/exp/pelton-turbine/ ) 
+Description: To conduct performance test on pelton turbine under various heads, speeds and loads and to plot the operating characteristics.   
+
+Pipe Bursting ( https://fmc-nitk.vlabs.ac.in/exp/pipe-bursting/ ) 
+Description: To find out the bursting pressure of PVC pipe. 
+
+Performance Characteristics of Francis Turbine ( https://fmc-nitk.vlabs.ac.in/exp/francis-turbine/ ) 
+Description: To conduct performance test on francis turbine under various heads, speeds and loads and to plot the operating characteristics.   
+
+
+
+Topic: Marine Structures
+
+Wave Attenuation in Pile Based Breakwater ( https://ms-nitk.vlabs.ac.in/exp/pile-based-breakwater/ ) 
+Description: To understand the wave attenuation pattern in single row and double row pile based wave flume, and to analyse the effect of separation between piles, wave period and wave height on wave attenuation.
+
+Wave Attenuation in Vegetation Based Breakwater ( https://ms-nitk.vlabs.ac.in/exp/vegetation-based-breakwater/ ) 
+Description: To understand the wave attenuation pattern in, with vegetation and without vegetation based wave flume, and to analyse the effect of separation between piles, wave period and wave height on wave attenuation.
+
+Specific Gravity of Cement and Aggregates ( https://ms-nitk.vlabs.ac.in/exp/cement-and-aggregates/ ) 
+Description: To determine the specific gravity of cement and aggregates using Le-Chatelier flask and Pycnometer respectively.
+
+Fineness Modulus of Cement and Aggregates ( https://ms-nitk.vlabs.ac.in/exp/fineness-modulus-of-aggregates/ ) 
+Description: To determine the fineness modulus of cement, fine aggregate and course aggregate.    
+
+Standard Consistency and Initial Setting Time of Cement ( https://ms-nitk.vlabs.ac.in/exp/time-of-cement/ ) 
+Description: To determine standard consistency and initial setting time of a given cement sample by Vicat apparatus, and to analyse the effect on consistency of cement with increasing water content.
+
+Concrete Mix Design ( https://ms-nitk.vlabs.ac.in/exp/concrete-mix-design/ ) 
+Description: To determine the mix proportion for selected grades of concrete, and to understand the effect of water-cement ratio on strength of concrete and effect under or over-designed concrete.
+
+Slump Test ( https://ms-nitk.vlabs.ac.in/exp/slump-test/ ) 
+Description:  To determine the workability of concrete mix.
+
+
+
+Topic: Mining Geology
+
+Analysis of Contour Maps ( https://mg-nitk.vlabs.ac.in/exp/contour-maps/ ) 
+Description: To describe the topographical cross-section of contour maps. 
+
+Analysis of Geological Features like Fault and Fold ( https://mg-nitk.vlabs.ac.in/exp/fault-and-fold/ ) 
+Description: To draw the geological cross section of the map and to find out the downthrow of the fault. 
+
+Identification of Minerals ( https://mg-nitk.vlabs.ac.in/exp/identification-of-minerals/ ) 
+Description: To identify the mineral based on its physical properties. 
+
+Identification and Study on Physical Properties of Rocks ( https://mg-nitk.vlabs.ac.in/exp/properties-of-rocks/ ) 
+Description: To identify the rock based on its physical properties.
+
+Structural Geology: Analysis of Dip and Strike ( https://mg-nitk.vlabs.ac.in/exp/dip-and-strike/ ) 
+Description: To draw geological cross section of the map and to find out the dip and strike of the formations.
+
+Borehole Problems ( https://mg-nitk.vlabs.ac.in/exp/borehole-problems/ ) 
+Description: To determine the underground properties from contour map for borehole construction at given location. 
+
+Thickness of Strata by Graphical Method ( https://mg-nitk.vlabs.ac.in/exp/graphical-method/ ) 
+Description: To draw geological cross section of the map and to find out the thickness of rock strata.  
+
+
+
+Topic: Smart Structures and Dynamics Laboratory
+
+
+
+Topic: Fluid Mechanics Lab
+
+Calibration of V notch ( https://fm-nitk.vlabs.ac.in/exp/calibration-of-v-notch/ ) 
+Description: To determine the coefficient of discharge of V-notch.
+
+Calibration of Rectangular notch ( https://fm-nitk.vlabs.ac.in/exp/calibration-rectangular-notch/ ) 
+Description: To determine the coefficient of discharge of Rectangular notch.
+
+Impact of jet ( https://fm-nitk.vlabs.ac.in/exp/impact-of-jet/ ) 
+Description: To determine the coefficient of impact of jet on vanes.
+
+Friction In pipes ( https://fm-nitk.vlabs.ac.in/exp/friction-in-pipes/ ) 
+Description: To determine friction in pipes.
+
+Venturimeter ( https://fm-nitk.vlabs.ac.in/exp/venturimeter/ ) 
+Description: To determine the coefficient of discharge of given venturimeter.
+
+
+
+Topic: Transportation Engineering
+
+Crushing Value of Aggregate ( https://ts-nitk.vlabs.ac.in/exp/crushing-value/ ) 
+Description: To assess the strength of coarse aggregates used in the pavement components under gradually applied load and to determine the aggregates crushing value of the given sample of aggregates.  
+
+Impact Test on Aggregate ( https://ts-nitk.vlabs.ac.in/exp/impact-test/ ) 
+Description: To evaluate the toughness of aggregates to break down under application of impact and to determine aggregate impact value of the given sample of aggregate. 
+
+Los Angeles Abrasion Test on Aggregate ( https://ts-nitk.vlabs.ac.in/exp/los-angeles-abrasion/ ) 
+Description: To determine the abrasion value of coarse aggregate by using Los - Angeles testing machine with an abrasive charge. 
+
+Ductility Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/ductility-test/ ) 
+Description: To determine the ductility value of asphaltic bitumen.
+
+Softening Point Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/softening-point-test/ ) 
+Description: To determine the softening point of the given sample of bitumen.  
+
+Penetration Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/penetration-test/ ) 
+Description: To determine consistency of bitumen or the grade of the bitumen by penetration test. 
+
+Specific Gravity Test on Bitumen ( https://ts-nitk.vlabs.ac.in/exp/specific-gravity-test/ ) 
+Description: To determine the specific gravity of the given sample of bitumen.   
+
+California Bearing Ratio Test on Soil ( https://ts-nitk.vlabs.ac.in/exp/california-bearing-ratio-test/ ) 
+Description: To determine California Bearing Ratio value of soil by conducting load penetration test.
+
+
+
+Topic: Environmental Engineering 1
+
+Determination of TS,TDS and TSS in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-ts/ ) 
+Description: To determine Total Solids (TS), Total Dissolved Solids (TDS), Total Suspended Solids (TSS), Volatile Suspended Solids (VSS) and Fixed Suspended Solids (FSS) in the given water sample. 
+
+Determination of Alkalinity in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-alkalinity/ ) 
+Description: To determine acid neutralizing capacity of given water sample.  
+
+Determination of Hardness in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-hardness/ ) 
+Description: To determine the amount of Total Hardness present in a given water sample by EDTA Titration method.   
+
+Determination of Chloride in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-chloride/ ) 
+Description: To determine Chloride Ion Concentration in a water sample by Mohr's method. 
+
+Determination of Total Iron in water ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-total-iron/ ) 
+Description: To determine concentration of Total Iron content in water sample by Spectrophotometric method.   
+
+Determination of pH ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-ph/ ) 
+Description: To determine the pH value of given solutions using pH meter.    
+
+Determination of Biological Oxygen Demand ( https://ee1-nitk.vlabs.ac.in/exp/determination-of-biological-oxygen/ ) 
+Description: To find the Biological Oxygen Demand exerted by the given sample of waste water. 
+
+
+
+Topic: Environmental Engineering 2
+
+Determination of Chemical Oxygen Demand ( https://ee2-nitk.vlabs.ac.in/exp/chemical-oxygen/ ) 
+Description: To determine the Chemical Oxygen Demand of the given water sample. 
+
+Alum Coagulation ( https://ee2-nitk.vlabs.ac.in/exp/alum-coagulation/ ) 
+Description: To determine the optimum Alum dosage for water or waste water treatment by Jar test. 
+
+Determination of Break-Point Chloride demand in water ( https://ee2-nitk.vlabs.ac.in/exp/chloride-demand-in-water/ ) 
+Description: To determine Break-Point Chlorine Demand in water sample.  
+
+Determination of Sulphate in water ( https://ee2-nitk.vlabs.ac.in/exp/sulphate-in-water/ ) 
+Description: To determine Sulphate ion concentration in the given sample by Turbidimetric method. 
+
+Determination of Flouride in water ( https://ee2-nitk.vlabs.ac.in/exp/flouride-in-water/ ) 
+Description: To determine Fluoride concentration in the given water sample by Ion Selective Method.   
+
+
+
+Topic: Smart Structures and Dynamics Laboratory
+
+Vibration Characteristics of Aluminium Cantilever Beam Using Piezoelectric Sensor (  https://vssd-iitd.vlabs.ac.in/exp/piezoelectric-sensors/ )
+Description: This experiment aims to study the vibration characteristics of an aluminium cantilever beam using piezoelectric-ceramic (PZT) sensor. The first natural frequency and the corresponding damping ratio is determined through vibration analysis.
+
+Identification of High Frequency Axial Modes of Beam in “Free-Free” Condition Using Electro-Mechanical Impedance (EMI) Technique ( https://vssd-iitd.vlabs.ac.in/exp/electro-mechanical-impedance/ )
+This experiment aims to identify the high frequency modes of an aluminium beam in “free-free” condition (which otherwise cannot be captured by the usual vibration techniques) using the electromechanical impedance (EMI) technique.
+
+Forced Excitation of Steel Beam Using Portable Shaker ( https://vssd-iitd.vlabs.ac.in/exp/portable-shaker/ )
+This experiment aims to obtain the vibration response of 3 m to 5.5 m long beam using a portable dynamic shaker. Unlike experiment 1 which deals with free vibration response, this experiment deals with forced vibration response. Using external shaker, the excitation can be effectively controlled. Modes otherwise missed out during impact excitation may be specifically excited.
+
+Photogrammetry for Displacement Measurement ( https://vssd-iitd.vlabs.ac.in/exp/photogrammetry/ )
+This experiment aims to use the photogrammetry technique to measure structural deflections. Photogrammetry technique relies on image processing to measure real-life deflections.
+
+Modes of Vibration of Simply Supported Beam Under Flexure ( https://vssd-iitd.vlabs.ac.in/exp/simply-supported-beam/ )
+This simulation based experiment aims to study the modes of vibration of simply supported beams under flexure.
+
+Modes of Vibration of Simply Supported Square Plate ( https://vssd-iitd.vlabs.ac.in/exp/simply-supported-plate/ )
+This simulation experiment aim to study the modes of vibrations of square plate simply supported on all edges.
+
+Damage Detection and Qualitative Severity Estimation Using EMI Technique ( https://vssd-iitd.vlabs.ac.in/exp/damage-detection/ )
+This experiment aims to teach the user, through a database of measured data, how occurrence of damage in a structure can be detected by using EMI technique.
+
+Dynamics of Bandra Worli Sea Link Bridge ( https://vssd-iitd.vlabs.ac.in/exp/sea-link-brigde/ )
+This experiment aims to study the modes of vibration of a real-life bridge – Bandra Worli Sea Link Bridge.
+
+Piezoelectric Energy Harvesting and Structural Health Monitoring using Thin Surface Bonded PZT Patches ( https://vssd-iitd.vlabs.ac.in/exp/thin-surface-bonded/ )
+This simulation based experiment is designed to teach the concept of piezoelectric energy harvesting through a combination of animation and the analytical model developed by Dr. Kaur and Prof. Bhalla (2014, 2015). The basic idea is to harvest vibration energy using thin PZT patch surface bonded on a bridge and to use that energy for structural health monitoring (SHM).
+
+Shear Lag Effect in Electro-Mechanical Impedance (EMI) Technique ( https://vssd-iitd.vlabs.ac.in/exp/electro-mechanical-admittance/ )
+This simulation based experiment is designed to teach the concept of shear lag in piezo based sensing/actuation operating through the medium of a bonding layer. The effect of shear lag on EMI signatures is studied with the aid of analytical models
+
+Corrosion Assessment in Rebars of RC Structures Using PZT Patches ( https://vssd-iitd.vlabs.ac.in/exp/corrosion-rate/ )
+This simulation is based on experimental data measured during actual accelerated corrosion tests carried out on reinforced concrete (RC) structures.
+
+
+
+Topic: Strength of Materials Lab
+
+Izod Impact Test ( https://sm-nitk.vlabs.ac.in/exp/izod-impact-test/ ) 
+Description: To find the impact resistance of mild steel and cast iron.
+
+Charpy Impact Test ( https://sm-nitk.vlabs.ac.in/exp/charpy-impact-test/ ) 
+Description: To find the impact resistance of mild steel.
+
+Direct Shear Test on Mild Steel Rod ( https://sm-nitk.vlabs.ac.in/exp/direct-shear-test-steel-rod/ ) 
+Description: To determine experimentally, the ultimate shear strength in double shear of mild steel rod.
+
+Direct Shear Test on Timber Specimen ( https://sm-nitk.vlabs.ac.in/exp/direct-shear-test-timber/ ) 
+Description: To determine experimentally, the ultimate shear strength of timber.
+
+Direct Shear Test on Mild Steel Plate ( https://sm-nitk.vlabs.ac.in/exp/direct-shear-test-steel-plate/ ) 
+Description: To determine experimentally, the ultimate shear strength in double shear of mild steel plate.
+
+Brinell Hardness Test ( https://sm-nitk.vlabs.ac.in/exp/brinell-hardness-test/ ) 
+Description: To determine the indentation hardness of Mild steel specimen, Cast iron specimen, Brass specimen and Aluminium specimen
+
+Bending Test on Mild Steel ( https://sm-nitk.vlabs.ac.in/exp/bending-test-mild-steel/ ) 
+Description: To study the behaviour of mild steel rod subjected to gradual increasing equal loads at 1/3rd span and to determine its mechanical properties.
+
+Rockwell Hardness Test ( https://sm-nitk.vlabs.ac.in/exp/rockwell-hardness-test/ ) 
+Description: To find the Rockwell hardness number of mild steel, cast iron, brass, aluminium and spring steel etc.
+
+Vickers Hardness Test ( https://sm-nitk.vlabs.ac.in/exp/vickers-hardness-test/ ) 
+Description: To determine the indentation hardness of mild steel, brass, aluminium etc. using Vickers hardness testing machine.
+
+Tensile Test on Mild Steel ( https://sm-nitk.vlabs.ac.in/exp/tensile-test-mild-steel/ ) 
+Description: To study the mechanical properties of Mild Steel specimen under tension load.
+
+Tensile Test on Cast Iron ( https://sm-nitk.vlabs.ac.in/exp/tensile-test-cast-iron/ ) 
+Description: To study the mechanical properties of cast iron specimen under tension load.
+
+Compression Test on Mild Steel ( https://sm-nitk.vlabs.ac.in/exp/compression-test-mild-steel/ ) 
+Description: To study the mechanical properties of Mild Steel specimen under compression.
+
+Compression Test on Cast Iron ( https://sm-nitk.vlabs.ac.in/exp/compression-test-cast-iron/ ) 
+Description: To study the mechanical properties of cast iron specimen under compression.
+
+Torsion Test on Mild Steel ( https://sm-nitk.vlabs.ac.in/exp/torsion-test-mild-steel/ ) 
+Description: To study the mechanical properties of mild steel under torsion.
+
+
+
+Topic: Surveying Lab
+
+Study of various parts of Auto Level ( https://sl-iitr.vlabs.ac.in/exp/auto-level/ ) 
+Description: To study various parts of auto level.
+
+Study of Plane Table and its Accessories ( https://sl-iitr.vlabs.ac.in/exp/plane-table/ ) 
+Description: To study various accessories of plane table for preparing engineering maps in the field.
+
+Detail Plotting by Radiation Method ( https://sl-iitr.vlabs.ac.in/exp/radiation-method/ ) 
+Description: To plot the details by radiation method using plane table.
+
+Detail Plotting by Intersection Method ( https://sl-iitr.vlabs.ac.in/exp/intersection-method/ ) 
+Description: To plot the details by intersection method using plane table.
+
+Carry out Contouring in the field ( https://sl-iitr.vlabs.ac.in/exp/contouring/ ) 
+Description: To draw contours (lines of equal elevation) of land surface to represent the topography of the terrain.
+
+Study of Global Positioning System (GPS) and its Accessories ( https://sl-iitr.vlabs.ac.in/exp/study-of-gps/ ) 
+Description: Study of global positiong system and its accessories to find out location of various points.
+
+Observations using GPS ( https://sl-iitr.vlabs.ac.in/exp/observations-using-gps/ ) 
+Description: To find out location (planimetric coordinates and elevations) of various points using GPS.
+
+Observations of vertical and horizontal angles using total station (Total station) ( https://sl-iitr.vlabs.ac.in/exp/exp-total-station-iitr/ ) 
+Description: Measurement of horizontal and vertical angles by using total station.
+
+To find out elevations of various points on the ground using auto-level by Profile Levelling method ( https://sl-iitr.vlabs.ac.in/exp/exp-profile-levelling-method-iitr/ ) 
+Description: 
+
+To find out elevations of various points on the ground using auto level (Fly Level) ( https://sl-iitr.vlabs.ac.in/exp/exp-fly-level-iitr/ ) 
+Description: To find out elevations of various points on the ground using auto level by profile levelling method (longitudinal sectioning).
+
+Detail Plotting by Resection Method ( https://sl-iitr.vlabs.ac.in/exp/exp-resection-method-iitr/ ) 
+Description: To determine the location of station occupied by the plane table with the help of three control points for detailed plotting.
+
