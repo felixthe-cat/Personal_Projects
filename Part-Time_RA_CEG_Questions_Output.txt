@@ -1,226 +1,226 @@
-::::What method will you use for the construction of Lantau Tomorrow Vision? {} 
-::::How to reduce settlement? {} 
-::::What does design life mean? {} 
-::::What does return period mean? {} 
-::::What does MIC mean? {} 
-::::Is MIC suitable to build student residential halls? {} 
-::::How are NEC ECC Main Options chosen? {} 
-::::Explain the Pain Share Gain Share Mechanism? {} 
-::::Who pays for Compensation Events? {} 
-::::What are the contents of the contract? what does each of them include? {} 
-::::What information is included in General Specification and Particular Specification? {} 
-::::Where is the requirement for workmanship stated in the contract? {} 
-::::How many pavement types are there? Please draw them out? {} 
-::::What is your opinion on the resumption of the gold course for developing housing estates? {} 
-::::What are the failure modes of the slab-column system? {} 
-::::Are you satisfied with the bus service in Hong Kong? {} 
-::::Who is 陳美寶, Mable Chan? {} 
-::::Where can the fill for reclamation be found for Tomorrow Lantau? What considerations are there? {} 
-::::What are the advantages of using MIC and what applications are there? {} 
-::::What recommendations were stated in the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
-::::What Comments to the government were stated in the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
-::::What is your own suggestion on the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
-::::What is the benefit of a flat slab? {} 
-::::Draw a beam-slab-column and flat slab? {} 
-::::What is the use of a dropped panel in a flat slab? {} 
-::::Which kind of slab should be used in a service reservoir? {} 
-::::Which kind of flab should be used in an office with many building services and stairs? {} 
-::::Do flat slab or beam-slab-column generally has a wider spacing between columns? {} 
-::::How does workmanship affect a bituminous road pavement? {} 
-::::What layers are present in flexible and rigid pavement? {} 
-::::Draw the layers of flexible and rigid pavement? {} 
-::::What is the different usage of flexible and rigid pavement? {} 
-::::Please state the material components of different layers of a bituminous pavement? {} 
-::::What documents are present in a tender document? {} 
-::::What is the General Condition of Contract? {} 
-::::What are the differences between General Condition of Contract and Special Condition of Contract? {} 
-::::What are the other documents in a tender document or contract? {} 
-::::What are the other innovative technologies other than BIM and MIC that could be used in the HKU Wong Chuk Hang student hall Mic Pilot Project? {} 
-::::Can UU projects use BIM? {} 
-::::When was the minimum wage last adjusted? {} 
-::::Who passed the adjustment of minimum wage proposal? {} 
-::::What is 三隧分流? {} 
-::::三隧收費如何改變? {} 
-::::三隧分流由誰提出? {} 
-::::三隧分流由誰通過? {} 
-::::立法會的作用? {} 
-::::What is concrete creep? {} 
-::::How to measure and calculate concrete creep? {} 
-::::How to prevent concrete creep from occurring? {} 
-::::Draw BMD of a lamp post structure? {} 
-::::Draw and explain the reinforcement details? {} 
-::::Describe the possible creaks formation? {} 
-::::What should we consider when we design a water retaining structure? {} 
-::::What are the structural elements during the design of a water retaining structure? {} 
-::::What innovative technology can be applied to the MiC development in Wong Chuk Hang? {} 
-::::Anymore other than BIM? {} 
-::::Consideration of open dig pipe lying? {} 
-::::Besides Mic and BIM, gives three technology of advanced and their benefit.? {} 
-::::Detail of the harbour tunnels diversion? {} 
-::::Western harbour tunnel is operated by a commercial company, why did they agree to reduce the fare? {} 
-::::What is piping? {} 
-::::Give two measures to prevent piping? {} 
-::::How to measure the groundwater level on-site? {} 
-::::How to monitor settlement on site? {} 
-::::What are the two important measures to be carried out when the groundwater table is much lower than the normal level? {} 
-::::Describe the fresh water supply system in HK? {} 
-::::What is the use of a service reservoir? {} 
-::::Draw a BMD of a cantilevered structure and describe the possible cracks? {} 
-::::Suggest a possible RC design for that structure? {} 
-::::Name three kinds of new construction technology except for BIM and MIC? {} 
-::::Suggest what the government can do to promote new construction technology? {} 
-::::什麼是三隧分流方案？ 說明具體的收費調整? 說明支持與反對的原因? {} 
-::::What is the use of the Thames barrier in London? {} 
-::::Draw the possible cracks of the structure? {} 
-::::What innovative technologies other than BIM and Mic and be used in a construction project? {} 
-::::How to promote the use of innovative technologies? {} 
-::::What is sustainable construction? {} 
-::::How to define sustainable? {} 
-::::Why do we need to carry out a slump test before bored pile concreting? {} 
-::::Can you tell me other tests related to bored piling? What are the principles behind it? {} 
-::::What would you do if some bored piles failed the test relating to it? {} 
-::::Would you remove the original pile if the pile failed its necessary test? {} 
-::::What is the function of service reservoirs? {} 
-::::Where do we need a manhole? what are the functions of a manhole? {} 
-::::Draw a flexible pavement with different layers on paper and tell their functions? {} 
-::::Apart from MIC and BIM, can you give me some examples that could be applied to the construction industry? {} 
-::::What tests are there on soil? How can the parameters be obtained? {} 
-::::What are the considerations on reclamation in Lantau Tomorrow Vision? {} 
-::::What is MIC? {} 
-::::What are the advantages and disadvantages of MIC? {} 
-::::Can you name other types of innovative technology used in the industry? {} 
-::::Draw the wastewater treatment process? {} 
-::::How is sludge treated before disposal? {} 
-::::How to do reclamation? {} 
-::::How to increase the rate of consolidation? {} 
-::::What is the consideration of reclamation? {} 
-::::How to build a seawall? {} 
-::::What is the foundation of a seawall? {} 
-::::What is the failure mode of a H steel beam? {} 
-::::How to increase the shear of the a H beam? {} 
-::::Draw the shear crack and show how it bends? {} 
-::::What are the other new technology other than BIM and MiC? How can these technologies benefit the construction industry? {} 
-::::What is the pricing policy of MTR and buses? {} 
-::::What do you think about the policy relating to the bus? {} 
-::::When designing a subway under Nathan Road, what are the considerations? {} 
-::::Draw the reinforcement of the cross-section of the subway? {} 
-::::What is the consideration in designing a drainage system? {} 
-::::How to determine how severe a storm is? What is the unit of measurement? How to collect the data? {} 
-::::What are the two important soil parameters for drainage design? {} 
-::::What innovative technology can be used in MIC in Wong Chuk Hang Project? {} 
-::::Is it feasible to carry out MIC in Wong Chuk Hang Project? {} 
-::::What are the advantages of using MIC? {} 
-::::How to design the sewage system and the drainage? {} 
-::::What are the documents required for tender? {} 
-::::Describe the advantages of NEC contract? {} 
-::::What is the innovative tech that can be used for the residential halls for hku? {} 
-::::What are the advantages/disadvantages of BIM? {} 
-::::What is the advantages /disadvantages of MIC? {} 
-::::How to transport large modules that may affect traffic? {} 
-::::Give 3 more examples of technology other than BIM and MIC that can be used in construction? {} 
-::::Who is 陳茂波? {} 
-::::What are the considerations for building a pedestrian pavement? {} 
-::::What utilities are there under a road? {} 
-::::Draw a flexible pavement? {} 
-::::How to minimise banding cracks? {} 
-::::How to minimise shear cracks? {} 
-::::What are the new technologies to protect workers’ safety? {} 
-::::施政報告是什麼? {} 
-::::Do you know the names of utilities we are using except drainage? {} 
-::::Which types of utilitie was buried to the deepest underground in Hong Kong? {} 
-::::What is desalination? {} 
-::::Do you know the method commonly used in desalination? {} 
-::::What is the name of the method? {} 
-::::Distillation requires large amounts of energy, what other methods are there for desalination? {} 
-::::What common minerals are there in seawater? {} 
-::::What are the factors we need to consider when building a subway crossing Nathan Road? {} 
-::::What design parameters is needed? {} 
-::::Can you draw the reinforcement details of a tunnel cross section? {} 
-::::Can you suggest dome advanced technology to be applied in Wong Chuk Hang student hall project? {} 
-::::What are the major concerns of MIC? {} 
-::::What is the usage of VR in engineering industry? {} 
-::::What are the details of the current fiscal budget? {} 
-::::Can you tell me what is sustainable construction? {} 
-::::Describe the design principle of the stormwater drainage system? {} 
-::::What are the considerations if the drainage system is located near coastal area? {} 
-::::Describe the structural form of bridges? {} 
-::::Sketch and explain the load transfer path of cable-stayed bridge and suspension bridge? {} 
-::::Describe the type of earth retaining structure from a given picture and explain the mechanism involed? {} 
-::::List out different types of earth retaining structures? {} 
-::::Explain the force mechanisms involed with the retaining wall. State also the assumptions of Rankine Theory? {} 
-::::Illustrate various new technologies used in construction? {} 
-::::Describe MIC. What are the likely difficulties encountered when using MIC? {} 
-::::What are the likely difficulties encountered for a 800sq ft unit to be installed using MIC technique in Wong Tai Sin? {} 
-::::What are the likely challenges brought by major infrastructure projects in HK? {} 
-::::If you are going to construct a bridge in Nathan Road, which bridge structure will you use? {} 
-::::Do you know stormwater design? {} 
-::::Draw the RC of box culvert? {} 
-::::What are the considerations for Tomorrow Lantau? {} 
-::::Where did you apply DCM? {} 
-::::Apart from BIM, what innovative technologies can be applied in the construction industry? {} 
-::::Describe the stormwater drainage system in Hong Kong? {} 
-::::How to design a stormwater drainage system? {} 
-::::Draw the reinforcement of a box culvert? {} 
-::::What special consideration are there for designing drainage system near costal area? {} 
-::::If you are an engineer, what are the considerations in the Lantau Tomorrow Vision design? {} 
-::::Explain the problems that would be encountered in reclamation. How to deal with soft marine deposits? How about the component of a seawall? {} 
-::::How does innovative technology help solve the labour shortage in the construction industry? To be exact, how to solve the problem of labour shortage for concretor and bar bender? {} 
-::::In general, how can new technology improve the performance of construction industry? {} 
-::::元旦有什麼公共服務加價? {} 
-::::解釋港鐵加價制度。有什麼情況港鐵可以加價? {} 
-::::政府可不可以阻止港鐵加價？為什麼當初簽約不加這個條款? {} 
-::::解釋三跑溶資方案? {} 
-::::為什麼市民反對港鐵加價，卻不反對機場徵收附加費? {} 
-::::Give an example of suspension bridge? {} 
-::::What are the differences between suspension bridge and cable sustained bridges? {} 
-::::What are the advantages of suspension bridges, give an example? {} 
-::::How would the design of drainage differ to cope with rainfall? {} 
-::::How would the design of drainage differ to cope with tidal flood? {} 
-::::How would the design of drainage differ to cope with combined effect? {} 
-::::What kind of structures are there for stormwater drainage systems? {} 
-::::What are the ways to do reclamation? {} 
-::::What are the concerns on reclamation? {} 
-::::In what circumstances are DCM to be applied? Is it suitable for DCM to be universally adopted? {} 
-::::How can we obtain the material for landfill? {} 
-::::Where is the landfill of C&D wastes located? {} 
-::::Explain BIM and its use throughout stages in the construction? {} 
-::::Is it viable to apply BIM in underground projects? {} 
-::::Which are the works eliminated due to advancement in robotics? {} 
-::::Are there other techs in Civil Engineering, besides BIM and robotics? {} 
-::::What public services raises its price on 1/1/2019? {} 
-::::Why is burning coal bad? {} 
-::::How to design stormwater drainage? {} 
-::::What is the consideration when designing the stormwater drainage near coastal area? {} 
-::::Daw the RC details for a Box Culvert? {} 
-::::What considerations are there in designing retaining wall? {} 
-::::Suggest some advance construction strategies? {} 
-::::What kind of new construction strategy can help reduce the use of labour? {} 
-::::What should we do to help those kinfd of labour? {} 
-::::What if the labour workers refuse to learn new technology? {} 
-::::誰是土地供應小組主席? {} 
-::::土地供應小組提出了什麼意見? {} 
-::::什麼是棕地? {} 
-::::What type of bridges are there? {} 
-::::What are the examples of bridges in daily life? {} 
-::::Please draw a free body diagram of a bridge to show its forces? {} 
-::::Please draw the cross-section of bridges? {} 
-::::What are the loading on a retaining wall? {} 
-::::Do calculations on Rankine’s Theory? {} 
-::::Water table effect on retaining wall? {} 
-::::Identify the type of retaining wall from photos? {} 
-::::Draw cross section of slope with soil nail? {} 
-::::Opinions in applying MIC in Hong Kong? {} 
-::::What are the challenges or difficulties in using MIC in Hong Kong? {} 
-::::What kind of machine is used to lift up structures in MIC? {} 
-::::Please estimate the weight of an 800 sq ft MIC module? {} 
-::::How much can a typical crane lift? {} 
-::::Please explain what concrete creep means? How to prevent it? {} 
-::::What is the use of service reservoir? {} 
-::::Why is the service reservoir situated at a high spot? Why is it not located in the low lands.? {} 
-::::Assuming you are the Pm of a building project, the project uses BIM and MIC. What other technologies can you use? How would you suggest to use these technologies in the project? {} 
-::::What is the minimum salary now? {} 
-::::What is the previous minimum salary? {} 
-::::How often will the minimum salary be reviewed? {} 
-::::Are there any other measures changed apart from increasing the minimum salary? {} 
-::::If you were a member of the Legislative Council, what would your opinion be on the minimum salary? {} 
-::::What ingredients are in concrete? What affects concrete strength? {} 
+ :: :: What method will you use for the construction of Lantau Tomorrow Vision? {} 
+ :: :: How to reduce settlement? {} 
+ :: :: What does design life mean? {} 
+ :: :: What does return period mean? {} 
+ :: :: What does MIC mean? {} 
+ :: :: Is MIC suitable to build student residential halls? {} 
+ :: :: How are NEC ECC Main Options chosen? {} 
+ :: :: Explain the Pain Share Gain Share Mechanism? {} 
+ :: :: Who pays for Compensation Events? {} 
+ :: :: What are the contents of the contract? what does each of them include? {} 
+ :: :: What information is included in General Specification and Particular Specification? {} 
+ :: :: Where is the requirement for workmanship stated in the contract? {} 
+ :: :: How many pavement types are there? Please draw them out? {} 
+ :: :: What is your opinion on the resumption of the gold course for developing housing estates? {} 
+ :: :: What are the failure modes of the slab-column system? {} 
+ :: :: Are you satisfied with the bus service in Hong Kong? {} 
+ :: :: Who is 陳美寶, Mable Chan? {} 
+ :: :: Where can the fill for reclamation be found for Tomorrow Lantau? What considerations are there? {} 
+ :: :: What are the advantages of using MIC and what applications are there? {} 
+ :: :: What recommendations were stated in the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
+ :: :: What Comments to the government were stated in the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
+ :: :: What is your own suggestion on the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
+ :: :: What is the benefit of a flat slab? {} 
+ :: :: Draw a beam-slab-column and flat slab? {} 
+ :: :: What is the use of a dropped panel in a flat slab? {} 
+ :: :: Which kind of slab should be used in a service reservoir? {} 
+ :: :: Which kind of flab should be used in an office with many building services and stairs? {} 
+ :: :: Do flat slab or beam-slab-column generally has a wider spacing between columns? {} 
+ :: :: How does workmanship affect a bituminous road pavement? {} 
+ :: :: What layers are present in flexible and rigid pavement? {} 
+ :: :: Draw the layers of flexible and rigid pavement? {} 
+ :: :: What is the different usage of flexible and rigid pavement? {} 
+ :: :: Please state the material components of different layers of a bituminous pavement? {} 
+ :: :: What documents are present in a tender document? {} 
+ :: :: What is the General Condition of Contract? {} 
+ :: :: What are the differences between General Condition of Contract and Special Condition of Contract? {} 
+ :: :: What are the other documents in a tender document or contract? {} 
+ :: :: What are the other innovative technologies other than BIM and MIC that could be used in the HKU Wong Chuk Hang student hall Mic Pilot Project? {} 
+ :: :: Can UU projects use BIM? {} 
+ :: :: When was the minimum wage last adjusted? {} 
+ :: :: Who passed the adjustment of minimum wage proposal? {} 
+ :: :: What is 三隧分流? {} 
+ :: :: 三隧收費如何改變? {} 
+ :: :: 三隧分流由誰提出? {} 
+ :: :: 三隧分流由誰通過? {} 
+ :: :: 立法會的作用? {} 
+ :: :: What is concrete creep? {} 
+ :: :: How to measure and calculate concrete creep? {} 
+ :: :: How to prevent concrete creep from occurring? {} 
+ :: :: Draw BMD of a lamp post structure? {} 
+ :: :: Draw and explain the reinforcement details? {} 
+ :: :: Describe the possible creaks formation? {} 
+ :: :: What should we consider when we design a water retaining structure? {} 
+ :: :: What are the structural elements during the design of a water retaining structure? {} 
+ :: :: What innovative technology can be applied to the MiC development in Wong Chuk Hang? {} 
+ :: :: Anymore other than BIM? {} 
+ :: :: Consideration of open dig pipe lying? {} 
+ :: :: Besides Mic and BIM, gives three technology of advanced and their benefit.? {} 
+ :: :: Detail of the harbour tunnels diversion? {} 
+ :: :: Western harbour tunnel is operated by a commercial company, why did they agree to reduce the fare? {} 
+ :: :: What is piping? {} 
+ :: :: Give two measures to prevent piping? {} 
+ :: :: How to measure the groundwater level on-site? {} 
+ :: :: How to monitor settlement on site? {} 
+ :: :: What are the two important measures to be carried out when the groundwater table is much lower than the normal level? {} 
+ :: :: Describe the fresh water supply system in HK? {} 
+ :: :: What is the use of a service reservoir? {} 
+ :: :: Draw a BMD of a cantilevered structure and describe the possible cracks? {} 
+ :: :: Suggest a possible RC design for that structure? {} 
+ :: :: Name three kinds of new construction technology except for BIM and MIC? {} 
+ :: :: Suggest what the government can do to promote new construction technology? {} 
+ :: :: 什麼是三隧分流方案？ 說明具體的收費調整? 說明支持與反對的原因? {} 
+ :: :: What is the use of the Thames barrier in London? {} 
+ :: :: Draw the possible cracks of the structure? {} 
+ :: :: What innovative technologies other than BIM and Mic and be used in a construction project? {} 
+ :: :: How to promote the use of innovative technologies? {} 
+ :: :: What is sustainable construction? {} 
+ :: :: How to define sustainable? {} 
+ :: :: Why do we need to carry out a slump test before bored pile concreting? {} 
+ :: :: Can you tell me other tests related to bored piling? What are the principles behind it? {} 
+ :: :: What would you do if some bored piles failed the test relating to it? {} 
+ :: :: Would you remove the original pile if the pile failed its necessary test? {} 
+ :: :: What is the function of service reservoirs? {} 
+ :: :: Where do we need a manhole? what are the functions of a manhole? {} 
+ :: :: Draw a flexible pavement with different layers on paper and tell their functions? {} 
+ :: :: Apart from MIC and BIM, can you give me some examples that could be applied to the construction industry? {} 
+ :: :: What tests are there on soil? How can the parameters be obtained? {} 
+ :: :: What are the considerations on reclamation in Lantau Tomorrow Vision? {} 
+ :: :: What is MIC? {} 
+ :: :: What are the advantages and disadvantages of MIC? {} 
+ :: :: Can you name other types of innovative technology used in the industry? {} 
+ :: :: Draw the wastewater treatment process? {} 
+ :: :: How is sludge treated before disposal? {} 
+ :: :: How to do reclamation? {} 
+ :: :: How to increase the rate of consolidation? {} 
+ :: :: What is the consideration of reclamation? {} 
+ :: :: How to build a seawall? {} 
+ :: :: What is the foundation of a seawall? {} 
+ :: :: What is the failure mode of a H steel beam? {} 
+ :: :: How to increase the shear of the a H beam? {} 
+ :: :: Draw the shear crack and show how it bends? {} 
+ :: :: What are the other new technology other than BIM and MiC? How can these technologies benefit the construction industry? {} 
+ :: :: What is the pricing policy of MTR and buses? {} 
+ :: :: What do you think about the policy relating to the bus? {} 
+ :: :: When designing a subway under Nathan Road, what are the considerations? {} 
+ :: :: Draw the reinforcement of the cross-section of the subway? {} 
+ :: :: What is the consideration in designing a drainage system? {} 
+ :: :: How to determine how severe a storm is? What is the unit of measurement? How to collect the data? {} 
+ :: :: What are the two important soil parameters for drainage design? {} 
+ :: :: What innovative technology can be used in MIC in Wong Chuk Hang Project? {} 
+ :: :: Is it feasible to carry out MIC in Wong Chuk Hang Project? {} 
+ :: :: What are the advantages of using MIC? {} 
+ :: :: How to design the sewage system and the drainage? {} 
+ :: :: What are the documents required for tender? {} 
+ :: :: Describe the advantages of NEC contract? {} 
+ :: :: What is the innovative tech that can be used for the residential halls for hku? {} 
+ :: :: What are the advantages/disadvantages of BIM? {} 
+ :: :: What is the advantages /disadvantages of MIC? {} 
+ :: :: How to transport large modules that may affect traffic? {} 
+ :: :: Give 3 more examples of technology other than BIM and MIC that can be used in construction? {} 
+ :: :: Who is 陳茂波? {} 
+ :: :: What are the considerations for building a pedestrian pavement? {} 
+ :: :: What utilities are there under a road? {} 
+ :: :: Draw a flexible pavement? {} 
+ :: :: How to minimise banding cracks? {} 
+ :: :: How to minimise shear cracks? {} 
+ :: :: What are the new technologies to protect workers’ safety? {} 
+ :: :: 施政報告是什麼? {} 
+ :: :: Do you know the names of utilities we are using except drainage? {} 
+ :: :: Which types of utilitie was buried to the deepest underground in Hong Kong? {} 
+ :: :: What is desalination? {} 
+ :: :: Do you know the method commonly used in desalination? {} 
+ :: :: What is the name of the method? {} 
+ :: :: Distillation requires large amounts of energy, what other methods are there for desalination? {} 
+ :: :: What common minerals are there in seawater? {} 
+ :: :: What are the factors we need to consider when building a subway crossing Nathan Road? {} 
+ :: :: What design parameters is needed? {} 
+ :: :: Can you draw the reinforcement details of a tunnel cross section? {} 
+ :: :: Can you suggest dome advanced technology to be applied in Wong Chuk Hang student hall project? {} 
+ :: :: What are the major concerns of MIC? {} 
+ :: :: What is the usage of VR in engineering industry? {} 
+ :: :: What are the details of the current fiscal budget? {} 
+ :: :: Can you tell me what is sustainable construction? {} 
+ :: :: Describe the design principle of the stormwater drainage system? {} 
+ :: :: What are the considerations if the drainage system is located near coastal area? {} 
+ :: :: Describe the structural form of bridges? {} 
+ :: :: Sketch and explain the load transfer path of cable-stayed bridge and suspension bridge? {} 
+ :: :: Describe the type of earth retaining structure from a given picture and explain the mechanism involed? {} 
+ :: :: List out different types of earth retaining structures? {} 
+ :: :: Explain the force mechanisms involed with the retaining wall. State also the assumptions of Rankine Theory? {} 
+ :: :: Illustrate various new technologies used in construction? {} 
+ :: :: Describe MIC. What are the likely difficulties encountered when using MIC? {} 
+ :: :: What are the likely difficulties encountered for a 800sq ft unit to be installed using MIC technique in Wong Tai Sin? {} 
+ :: :: What are the likely challenges brought by major infrastructure projects in HK? {} 
+ :: :: If you are going to construct a bridge in Nathan Road, which bridge structure will you use? {} 
+ :: :: Do you know stormwater design? {} 
+ :: :: Draw the RC of box culvert? {} 
+ :: :: What are the considerations for Tomorrow Lantau? {} 
+ :: :: Where did you apply DCM? {} 
+ :: :: Apart from BIM, what innovative technologies can be applied in the construction industry? {} 
+ :: :: Describe the stormwater drainage system in Hong Kong? {} 
+ :: :: How to design a stormwater drainage system? {} 
+ :: :: Draw the reinforcement of a box culvert? {} 
+ :: :: What special consideration are there for designing drainage system near costal area? {} 
+ :: :: If you are an engineer, what are the considerations in the Lantau Tomorrow Vision design? {} 
+ :: :: Explain the problems that would be encountered in reclamation. How to deal with soft marine deposits? How about the component of a seawall? {} 
+ :: :: How does innovative technology help solve the labour shortage in the construction industry? To be exact, how to solve the problem of labour shortage for concretor and bar bender? {} 
+ :: :: In general, how can new technology improve the performance of construction industry? {} 
+ :: :: 元旦有什麼公共服務加價? {} 
+ :: :: 解釋港鐵加價制度。有什麼情況港鐵可以加價? {} 
+ :: :: 政府可不可以阻止港鐵加價？為什麼當初簽約不加這個條款? {} 
+ :: :: 解釋三跑溶資方案? {} 
+ :: :: 為什麼市民反對港鐵加價，卻不反對機場徵收附加費? {} 
+ :: :: Give an example of suspension bridge? {} 
+ :: :: What are the differences between suspension bridge and cable sustained bridges? {} 
+ :: :: What are the advantages of suspension bridges, give an example? {} 
+ :: :: How would the design of drainage differ to cope with rainfall? {} 
+ :: :: How would the design of drainage differ to cope with tidal flood? {} 
+ :: :: How would the design of drainage differ to cope with combined effect? {} 
+ :: :: What kind of structures are there for stormwater drainage systems? {} 
+ :: :: What are the ways to do reclamation? {} 
+ :: :: What are the concerns on reclamation? {} 
+ :: :: In what circumstances are DCM to be applied? Is it suitable for DCM to be universally adopted? {} 
+ :: :: How can we obtain the material for landfill? {} 
+ :: :: Where is the landfill of C&D wastes located? {} 
+ :: :: Explain BIM and its use throughout stages in the construction? {} 
+ :: :: Is it viable to apply BIM in underground projects? {} 
+ :: :: Which are the works eliminated due to advancement in robotics? {} 
+ :: :: Are there other techs in Civil Engineering, besides BIM and robotics? {} 
+ :: :: What public services raises its price on 1/1/2019? {} 
+ :: :: Why is burning coal bad? {} 
+ :: :: How to design stormwater drainage? {} 
+ :: :: What is the consideration when designing the stormwater drainage near coastal area? {} 
+ :: :: Daw the RC details for a Box Culvert? {} 
+ :: :: What considerations are there in designing retaining wall? {} 
+ :: :: Suggest some advance construction strategies? {} 
+ :: :: What kind of new construction strategy can help reduce the use of labour? {} 
+ :: :: What should we do to help those kinfd of labour? {} 
+ :: :: What if the labour workers refuse to learn new technology? {} 
+ :: :: 誰是土地供應小組主席? {} 
+ :: :: 土地供應小組提出了什麼意見? {} 
+ :: :: 什麼是棕地? {} 
+ :: :: What type of bridges are there? {} 
+ :: :: What are the examples of bridges in daily life? {} 
+ :: :: Please draw a free body diagram of a bridge to show its forces? {} 
+ :: :: Please draw the cross-section of bridges? {} 
+ :: :: What are the loading on a retaining wall? {} 
+ :: :: Do calculations on Rankine’s Theory? {} 
+ :: :: Water table effect on retaining wall? {} 
+ :: :: Identify the type of retaining wall from photos? {} 
+ :: :: Draw cross section of slope with soil nail? {} 
+ :: :: Opinions in applying MIC in Hong Kong? {} 
+ :: :: What are the challenges or difficulties in using MIC in Hong Kong? {} 
+ :: :: What kind of machine is used to lift up structures in MIC? {} 
+ :: :: Please estimate the weight of an 800 sq ft MIC module? {} 
+ :: :: How much can a typical crane lift? {} 
+ :: :: Please explain what concrete creep means? How to prevent it? {} 
+ :: :: What is the use of service reservoir? {} 
+ :: :: Why is the service reservoir situated at a high spot? Why is it not located in the low lands.? {} 
+ :: :: Assuming you are the Pm of a building project, the project uses BIM and MIC. What other technologies can you use? How would you suggest to use these technologies in the project? {} 
+ :: :: What is the minimum salary now? {} 
+ :: :: What is the previous minimum salary? {} 
+ :: :: How often will the minimum salary be reviewed? {} 
+ :: :: Are there any other measures changed apart from increasing the minimum salary? {} 
+ :: :: If you were a member of the Legislative Council, what would your opinion be on the minimum salary? {} 
+ :: :: What ingredients are in concrete? What affects concrete strength? {} 
