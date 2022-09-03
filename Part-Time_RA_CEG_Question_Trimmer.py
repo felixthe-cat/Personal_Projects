@@ -11,8 +11,8 @@ def main():
         for question in question_list:
             if question != '':
                 if ':' not in question:
-                    # if '(' not in question:
-                    new_question_list.append(question.strip())
+                    if '(' not in question:
+                        new_question_list.append(question.strip())
         for index, question in enumerate(new_question_list):
             if question[-1] != '?':
                 new_question_list[index] = question + '?'
@@ -22,7 +22,7 @@ def main():
         print(new_question_list)
     with open ('Part-Time_RA_CEG_Questions_Output','w') as Answers:
         for question in new_question_list:
-            Answers.write(question + '\n')
+            Answers.write(question + ' {} \n')
             # Answers.write()
 
             
