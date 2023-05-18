@@ -22,7 +22,7 @@ def main():
         print(new_question_list)
     with open ('Part-time_RA/Part-Time_RA_CEG_Questions_Output','w') as Answers:
         for index, question in enumerate(new_question_list):
-            if '(' not in question:
+            # if '(' not in question:
                 Answers.write( " :: CEG_Question " + str(index) + " :: " + question + ' {} \n\n')
                 # Answers.write()
 

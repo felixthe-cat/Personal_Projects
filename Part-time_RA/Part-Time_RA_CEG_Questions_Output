@@ -24,23 +24,59 @@
 
  :: CEG_Question 12 :: How many pavement types are there? Please draw them out? {} 
 
+ :: CEG_Question 13 :: Please explain the layers and the construction (Page 1, second screenshot, Q10)? {} 
+
+ :: CEG_Question 14 :: Regarding tender, what advice from the Lands Department will be given to an urban development project (Page 1, second screenshot, Q11)? {} 
+
+ :: CEG_Question 15 :: How many parts are the land for resumption divided into (Page 1, second screenshot, Q12)? {} 
+
  :: CEG_Question 16 :: What is your opinion on the resumption of the gold course for developing housing estates? {} 
 
  :: CEG_Question 17 :: What are the failure modes of the slab-column system? {} 
 
+ :: CEG_Question 18 :: Draw the location of the shear failure of the slab-column system (Page 1, second screenshot, Q16)? {} 
+
+ :: CEG_Question 19 :: What is the diameter of the punching shear failure of the system (Page 1, second screenshot, Q17)? {} 
+
+ :: CEG_Question 20 :: What technology is applied in this project  (Page 1, second screenshot, Q18)? {} 
+
+ :: CEG_Question 21 :: Why is the technology applied (Page 1, second screenshot, Q19)? {} 
+
+ :: CEG_Question 22 :: Any other technologies can be used (Page 1, second screenshot, Q20)? {} 
+
+ :: CEG_Question 23 :: How can these contribute to safety (Page 1, second screenshot, Q21)? {} 
+
+ :: CEG_Question 24 :: What technologies are displayed  in the CITAC building (Page 1, second screenshot, Q22)? {} 
+
  :: CEG_Question 25 :: Are you satisfied with the bus service in Hong Kong? {} 
 
+ :: CEG_Question 26 :: Who made the bus report (Page 2, Q24)? {} 
+
+ :: CEG_Question 27 :: What is the purpose of the bus report  (Page 2, Q25)? {} 
+
  :: CEG_Question 28 :: Who is 陳美寶, Mable Chan? {} 
+
+ :: CEG_Question 29 :: What content is there in the bus report (Page 2, Q27)? {} 
+
+ :: CEG_Question 30 :: What has been recommended in the bus report(Page 2, Q28)? {} 
 
  :: CEG_Question 31 :: Where can the fill for reclamation be found for Tomorrow Lantau? What considerations are there? {} 
 
  :: CEG_Question 32 :: What are the advantages of using MIC and what applications are there? {} 
+
+ :: CEG_Question 33 :: Draw the cross-section of a Beam-Column Joint (Page 3, Q4)? {} 
+
+ :: CEG_Question 34 :: Sewerage System in Hong Kong (Page 3, Q5)? {} 
+
+ :: CEG_Question 35 :: New Construction Technology (Page 3, Q6)? {} 
 
  :: CEG_Question 36 :: What recommendations were stated in the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
 
  :: CEG_Question 37 :: What Comments to the government were stated in the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
 
  :: CEG_Question 38 :: What is your own suggestion on the Independent Review Committee report on Hong Kong’s Franchised Bus Service? {} 
+
+ :: CEG_Question 39 :: What type of slabs are there (Page 3, Q2)? {} 
 
  :: CEG_Question 40 :: What is the benefit of a flat slab? {} 
 
@@ -54,6 +90,10 @@
 
  :: CEG_Question 45 :: Do flat slab or beam-slab-column generally has a wider spacing between columns? {} 
 
+ :: CEG_Question 46 :: What type of paper works you in charge of during the internship (Payment Deduction)  (P3, Q9)? {} 
+
+ :: CEG_Question 47 :: What is the purpose of the Payment Deduction paperwork (P3, Q10)? {} 
+
  :: CEG_Question 48 :: How does workmanship affect a bituminous road pavement? {} 
 
  :: CEG_Question 49 :: What layers are present in flexible and rigid pavement? {} 
@@ -64,6 +104,10 @@
 
  :: CEG_Question 52 :: Please state the material components of different layers of a bituminous pavement? {} 
 
+ :: CEG_Question 53 :: How does the grain size varies in layers (P3, Q16)? {} 
+
+ :: CEG_Question 54 :: (interviewee has internship experience on tender documents)? {} 
+
  :: CEG_Question 55 :: What documents are present in a tender document? {} 
 
  :: CEG_Question 56 :: What is the General Condition of Contract? {} 
@@ -72,13 +116,21 @@
 
  :: CEG_Question 58 :: What are the other documents in a tender document or contract? {} 
 
+ :: CEG_Question 59 :: (interviewee’s FYP was about BIM and MIC)? {} 
+
  :: CEG_Question 60 :: What are the other innovative technologies other than BIM and MIC that could be used in the HKU Wong Chuk Hang student hall Mic Pilot Project? {} 
 
  :: CEG_Question 61 :: Can UU projects use BIM? {} 
 
+ :: CEG_Question 62 :: If a UU project in Mong Kok is carried out, what kind of innovative technologies can be used to ensure the accuracy of UU survey (P4, Q22)? {} 
+
+ :: CEG_Question 63 :: How much is the minimum wage adjusted from and to (P4, Q23)? {} 
+
  :: CEG_Question 64 :: When was the minimum wage last adjusted? {} 
 
  :: CEG_Question 65 :: Who passed the adjustment of minimum wage proposal? {} 
+
+ :: CEG_Question 66 :: How did the Legislated council react to the adjustment of the minimum wage (P4, Q26)? {} 
 
  :: CEG_Question 67 :: What is 三隧分流? {} 
 
@@ -89,6 +141,12 @@
  :: CEG_Question 70 :: 三隧分流由誰通過? {} 
 
  :: CEG_Question 71 :: 立法會的作用? {} 
+
+ :: CEG_Question 72 :: What did he do and achieve in his internship (P4, Q1)? {} 
+
+ :: CEG_Question 73 :: Do you know about Kai Tuk Development (P4, Q2)? {} 
+
+ :: CEG_Question 74 :: How the thing I learnt can help the development in Kai Tuk area? (P4, Q3)? {} 
 
  :: CEG_Question 75 :: What is concrete creep? {} 
 
@@ -110,9 +168,25 @@
 
  :: CEG_Question 84 :: Anymore other than BIM? {} 
 
+ :: CEG_Question 85 :: Minimum wage  (P4, Q. f )? {} 
+
+ :: CEG_Question 86 :: Tunnels prices change in Hong Kong  (P4, Q f)? {} 
+
+ :: CEG_Question 87 :: When should we put manhole?  (P5, Q1)? {} 
+
+ :: CEG_Question 88 :: Operation procedure of CCTV (pipe monitoring)? {} 
+
  :: CEG_Question 89 :: Consideration of open dig pipe lying? {} 
 
+ :: CEG_Question 90 :: Draw a very simple BMD (inverted L shape, fixed ending, point load at the tip) (P5, Q2)? {} 
+
+ :: CEG_Question 91 :: Draw the rebar arrangement of the inverted L shape. (P5, Q2)? {} 
+
+ :: CEG_Question 92 :: Show the location of crack (share and flexural crack) (P5, Q2)? {} 
+
  :: CEG_Question 93 :: Besides Mic and BIM, gives three technology of advanced and their benefit.? {} 
+
+ :: CEG_Question 94 :: Given a photo showing a hillside construction site, point out the constraint of the application of BIM  (P5, Q3)? {} 
 
  :: CEG_Question 95 :: Detail of the harbour tunnels diversion? {} 
 
@@ -144,6 +218,12 @@
 
  :: CEG_Question 109 :: What is the use of the Thames barrier in London? {} 
 
+ :: CEG_Question 110 :: Draw the first and second harmonic of a beam (structural dynamic)? {} 
+
+ :: CEG_Question 111 :: How does it apply to bridges in London? (Millennium Bridge)? {} 
+
+ :: CEG_Question 112 :: BMD and RC detail of an inverted L shape structure.  (P6, Q5)? {} 
+
  :: CEG_Question 113 :: Draw the possible cracks of the structure? {} 
 
  :: CEG_Question 114 :: What innovative technologies other than BIM and Mic and be used in a construction project? {} 
@@ -155,6 +235,12 @@
  :: CEG_Question 117 :: How to define sustainable? {} 
 
  :: CEG_Question 118 :: Why do we need to carry out a slump test before bored pile concreting? {} 
+
+ :: CEG_Question 119 :: Which type of slumps have you encountered?  (P6, Q2)? {} 
+
+ :: CEG_Question 120 :: Can you tell me the acceptable range of slumps on the working site? (P6, Q3)? {} 
+
+ :: CEG_Question 121 :: What will you do if the slump test failed? (P6, Q4)? {} 
 
  :: CEG_Question 122 :: Can you tell me other tests related to bored piling? What are the principles behind it? {} 
 
@@ -170,9 +256,17 @@
 
  :: CEG_Question 128 :: Apart from MIC and BIM, can you give me some examples that could be applied to the construction industry? {} 
 
+ :: CEG_Question 129 :: Which technology would you suggest in the project of Wong Chuk Hang student residences? What is the advantage of using these construction technologies (P6, Q14)? {} 
+
  :: CEG_Question 130 :: What tests are there on soil? How can the parameters be obtained? {} 
 
  :: CEG_Question 131 :: What are the considerations on reclamation in Lantau Tomorrow Vision? {} 
+
+ :: CEG_Question 132 :: What are the assessments to be carried out?  (P7, Q2)? {} 
+
+ :: CEG_Question 133 :: What is a consolidation? (P7, Q3)? {} 
+
+ :: CEG_Question 134 :: How can it be minimised? (P7, Q4)? {} 
 
  :: CEG_Question 135 :: What is MIC? {} 
 
@@ -190,9 +284,15 @@
 
  :: CEG_Question 142 :: What is the consideration of reclamation? {} 
 
+ :: CEG_Question 143 :: How to manage the construction process of such a large project?  (P7, Q4)? {} 
+
  :: CEG_Question 144 :: How to build a seawall? {} 
 
  :: CEG_Question 145 :: What is the foundation of a seawall? {} 
+
+ :: CEG_Question 146 :: Where does the fill come from? (P7, Q7)? {} 
+
+ :: CEG_Question 147 :: Where does the fill store? (P7, Q8)? {} 
 
  :: CEG_Question 148 :: What is the failure mode of a H steel beam? {} 
 
@@ -202,7 +302,11 @@
 
  :: CEG_Question 151 :: What are the other new technology other than BIM and MiC? How can these technologies benefit the construction industry? {} 
 
+ :: CEG_Question 152 :: At the beginning of 2019, what public organization increase their fee? (P7, Q13)? {} 
+
  :: CEG_Question 153 :: What is the pricing policy of MTR and buses? {} 
+
+ :: CEG_Question 154 :: When is the last time buses increased their fee? (P7, Q15)? {} 
 
  :: CEG_Question 155 :: What do you think about the policy relating to the bus? {} 
 
@@ -224,9 +328,23 @@
 
  :: CEG_Question 164 :: How to design the sewage system and the drainage? {} 
 
+ :: CEG_Question 165 :: Why did the sewerage system need to be redesigned? (P7, Q11)? {} 
+
+ :: CEG_Question 166 :: What other things you have done during the internship? (Contract)  (P7, Q12)? {} 
+
  :: CEG_Question 167 :: What are the documents required for tender? {} 
 
  :: CEG_Question 168 :: Describe the advantages of NEC contract? {} 
+
+ :: CEG_Question 169 :: Draw the reinforcement of the beam (cross-section and long section)  (P7, Q15)? {} 
+
+ :: CEG_Question 170 :: How to control crack width (P7, Q16)? {} 
+
+ :: CEG_Question 171 :: Draw on the diagram how to put more reinforcement to control crack width  (P7, Q17)? {} 
+
+ :: CEG_Question 172 :: What are the types of cracks? (P7, Q18)? {} 
+
+ :: CEG_Question 173 :: Draw the cracks on the diagram  (P7, Q19)? {} 
 
  :: CEG_Question 174 :: What is the innovative tech that can be used for the residential halls for hku? {} 
 
@@ -240,17 +358,29 @@
 
  :: CEG_Question 179 :: Who is 陳茂波? {} 
 
+ :: CEG_Question 180 :: 派4000蚊有咩限制, 邊個冇資格攞  (P7, Q17)? {} 
+
  :: CEG_Question 181 :: What are the considerations for building a pedestrian pavement? {} 
 
  :: CEG_Question 182 :: What utilities are there under a road? {} 
 
  :: CEG_Question 183 :: Draw a flexible pavement? {} 
 
+ :: CEG_Question 184 :: Draw beam reinforcement and explain (P9,Q4)? {} 
+
+ :: CEG_Question 185 :: What are the two kinds of cracks in beams (bending and shear)? {} 
+
  :: CEG_Question 186 :: How to minimise banding cracks? {} 
 
  :: CEG_Question 187 :: How to minimise shear cracks? {} 
 
+ :: CEG_Question 188 :: With a photo of HKU constructing hall, show what new technologies are used in the construction  (P9,Q8)? {} 
+
  :: CEG_Question 189 :: What are the new technologies to protect workers’ safety? {} 
+
+ :: CEG_Question 190 :: 財政預算案幾時出，使唔使審批  (P9,Q10)? {} 
+
+ :: CEG_Question 191 :: 拉布要叫停財政預算案嘅咩嘢  (P9,Q11)? {} 
 
  :: CEG_Question 192 :: 施政報告是什麼? {} 
 
@@ -274,11 +404,17 @@
 
  :: CEG_Question 202 :: Can you draw the reinforcement details of a tunnel cross section? {} 
 
+ :: CEG_Question 203 :: How to conduct TIA next to columbaria 骨灰龕 (P9,Q14)? {} 
+
+ :: CEG_Question 204 :: How to judge the similarity of traffic data from different places (P9,Q15)? {} 
+
  :: CEG_Question 205 :: Can you suggest dome advanced technology to be applied in Wong Chuk Hang student hall project? {} 
 
  :: CEG_Question 206 :: What are the major concerns of MIC? {} 
 
  :: CEG_Question 207 :: What is the usage of VR in engineering industry? {} 
+
+ :: CEG_Question 208 :: Can you suggest more advanced technology other than VR and MIC  (P9,Q19)? {} 
 
  :: CEG_Question 209 :: What are the details of the current fiscal budget? {} 
 
@@ -296,6 +432,8 @@
 
  :: CEG_Question 216 :: List out different types of earth retaining structures? {} 
 
+ :: CEG_Question 217 :: What are the things to be done associated with making an excavation using one of the ERS I sketched (cantilever retaining wall)? {} 
+
  :: CEG_Question 218 :: Explain the force mechanisms involed with the retaining wall. State also the assumptions of Rankine Theory? {} 
 
  :: CEG_Question 219 :: Illustrate various new technologies used in construction? {} 
@@ -304,7 +442,13 @@
 
  :: CEG_Question 221 :: What are the likely difficulties encountered for a 800sq ft unit to be installed using MIC technique in Wong Tai Sin? {} 
 
+ :: CEG_Question 222 :: What public enterprises had their prices increased in 2019  (P10,Q13)? {} 
+
+ :: CEG_Question 223 :: Why do you think that MTR can still successfully increase their price continuously despite having numerous delays/accidents? what is their pricing policy? why do you think the government still accept MTR’s application for price increase  (P10,Q14)? {} 
+
  :: CEG_Question 224 :: What are the likely challenges brought by major infrastructure projects in HK? {} 
+
+ :: CEG_Question 225 :: List some types of bridges   (P10,Q19)? {} 
 
  :: CEG_Question 226 :: If you are going to construct a bridge in Nathan Road, which bridge structure will you use? {} 
 
@@ -317,6 +461,10 @@
  :: CEG_Question 230 :: Where did you apply DCM? {} 
 
  :: CEG_Question 231 :: Apart from BIM, what innovative technologies can be applied in the construction industry? {} 
+
+ :: CEG_Question 232 :: How did the fare price change for MTR (P10,Q9)? {} 
+
+ :: CEG_Question 233 :: What does the policy of 可加可減機制 mean? What considerations are there?  (P10,Q10)? {} 
 
  :: CEG_Question 234 :: Describe the stormwater drainage system in Hong Kong? {} 
 
@@ -344,6 +492,8 @@
 
  :: CEG_Question 246 :: 為什麼市民反對港鐵加價，卻不反對機場徵收附加費? {} 
 
+ :: CEG_Question 247 :: Draw a suspension bridge  (P11,Q1)? {} 
+
  :: CEG_Question 248 :: Give an example of suspension bridge? {} 
 
  :: CEG_Question 249 :: What are the differences between suspension bridge and cable sustained bridges? {} 
@@ -355,6 +505,8 @@
  :: CEG_Question 252 :: How would the design of drainage differ to cope with tidal flood? {} 
 
  :: CEG_Question 253 :: How would the design of drainage differ to cope with combined effect? {} 
+
+ :: CEG_Question 254 :: How to cope with backwater  (P11,Q2)? {} 
 
  :: CEG_Question 255 :: What kind of structures are there for stormwater drainage systems? {} 
 
@@ -378,6 +530,8 @@
 
  :: CEG_Question 265 :: What public services raises its price on 1/1/2019? {} 
 
+ :: CEG_Question 266 :: What are the composition of electricity generation in HK (P11,Q5)? {} 
+
  :: CEG_Question 267 :: Why is burning coal bad? {} 
 
  :: CEG_Question 268 :: How to design stormwater drainage? {} 
@@ -386,11 +540,17 @@
 
  :: CEG_Question 270 :: Daw the RC details for a Box Culvert? {} 
 
+ :: CEG_Question 271 :: Blue-green infrastructure (P12 Q5)? {} 
+
+ :: CEG_Question 272 :: Please recognise what retaining wall is this (with a photo) and suggest what is special with this wall? {} 
+
  :: CEG_Question 273 :: What considerations are there in designing retaining wall? {} 
 
  :: CEG_Question 274 :: Suggest some advance construction strategies? {} 
 
  :: CEG_Question 275 :: What kind of new construction strategy can help reduce the use of labour? {} 
+
+ :: CEG_Question 276 :: What type of workers will be affected (P12, Q13)? {} 
 
  :: CEG_Question 277 :: What should we do to help those kinfd of labour? {} 
 
@@ -432,9 +592,13 @@
 
  :: CEG_Question 296 :: Please explain what concrete creep means? How to prevent it? {} 
 
+ :: CEG_Question 297 :: In calculations, It is known to be conservative that commercial and residential discharge are summed up in the end to calculate peak discharge for a mixed building. What do you suggest on the problem?  (P13,Q1)? {} 
+
  :: CEG_Question 298 :: What is the use of service reservoir? {} 
 
  :: CEG_Question 299 :: Why is the service reservoir situated at a high spot? Why is it not located in the low lands.? {} 
+
+ :: CEG_Question 300 :: Potential cracking of the structure (P13,Q9)? {} 
 
  :: CEG_Question 301 :: Assuming you are the Pm of a building project, the project uses BIM and MIC. What other technologies can you use? How would you suggest to use these technologies in the project? {} 
 
@@ -449,4 +613,6 @@
  :: CEG_Question 306 :: If you were a member of the Legislative Council, what would your opinion be on the minimum salary? {} 
 
  :: CEG_Question 307 :: What ingredients are in concrete? What affects concrete strength? {} 
+
+ :: CEG_Question 308 :: What are the challenges with water main project? (P13, written Q2)? {} 
 
