@@ -35,16 +35,22 @@ with open('output.txt','w') as o:
 
 # output to excel
 my_wb = openpyxl.Workbook()
-my_sheet = my_wb.active
-# my_wb.
+my_sheet = openpyxl.load_workbook('output.xlsx').worksheets[0]
 
-my_sheet.cell(row = 1, column = 1 ).value = 'Item'
+# sets the font properties
+# my_sheet
+# my_sheet.style.font.name = 'Arial'
+# my_sheet.style.font.size = 8
+
+my_sheet.cell(row = 1, column = 1 ).value = 'ARRRR'
 my_sheet.cell(row = 1, column = 2 ).value = 'Section'
 my_sheet.cell(row = 1, column = 3 ).value = 'Comments'
+my_sheet.cell(row = 1, column = 4 ).value = 'Response to Comment'
 for index, _ in enumerate(output):
     if index != 0:
         my_sheet.cell(row = index + 2, column = 1 ).value = index
     my_sheet.cell(row = index + 2, column = 2 ).value = output[index][0]
     my_sheet.cell(row = index + 2, column = 3 ).value = output[index][1]
+    my_sheet.cell(row = index + 2, column = 4 ).value = ''
 my_wb.save('output.xlsx')
 
