@@ -1,11 +1,11 @@
 import re
 
-
+additional_txt = input("Anything you wanna add before the data: ")
 with open('past_paper.txt','r') as f: 
     txt = f.read()
 date = re.compile("[0-9]+-[0-9]+-[0-9]+")
 for match in date.finditer(txt):
-    print(match.group(0))
+    print(additional_txt + ' ' + match.group(0))
 
 quit()
 
