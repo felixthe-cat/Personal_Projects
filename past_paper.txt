@@ -1,0 +1,71 @@
+1. Foundation Engineering
+Exam date (d-m-yyyy): 9-12-2022
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+2. Foundation Engineering
+Exam date (d-m-yyyy): 16-5-2022
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+3. Foundation Engineering
+Exam date (d-m-yyyy): 9-12-2021
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+4. Foundation Engineering (Restricted access; Contact your lecturer)
+Exam date (d-m-yyyy): 13-5-2021
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+Remark: Restricted
+5. Foundation Engineering (Restricted access; Contact your lecturer)
+Exam date (d-m-yyyy): 11-12-2020
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+Remark: Restricted
+6. Foundation engineering
+Exam date (d-m-yyyy): 11-12-2019
+Course: CIVL3108
+Department: Civil Engineering
+Remark: Completion Time: 2:30 pm on 12-Dec
+7. Foundation Engineering
+Exam date (d-m-yyyy): 17-12-2018
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+8. Foundation Engineering
+Exam date (d-m-yyyy): 18-5-2018
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+9. Foundation Engineering
+Exam date (d-m-yyyy): 18-5-2017
+Course: CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+10. Foundation engineering
+Exam date (d-m-yyyy): 12-5-2016
+Course: CIVL3008
+CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+11. Foundation engineering
+Exam date (d-m-yyyy): 11-12-2015
+Course: CIVL3008
+CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+12. Foundation engineering
+Exam date (d-m-yyyy): 14-5-2015
+Course: CIVL3008
+CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering
+13. Foundation engineering
+Exam date (d-m-yyyy): 16-12-2014
+Course: CIVL3008
+CIVL3108
+Department: Civil Engineering
+Degree: Bachelor of Engineering

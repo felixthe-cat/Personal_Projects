@@ -10,7 +10,25 @@ output = re.split("\n",txt)
 output = [i for i in output if i != '']
 # print(output)
 
-# splits the para from the commenbt
+# finds phone number
+phone_number = re.search('\d\d\d\d\s?\d\d\d\d', txt)
+if phone_number is None:
+    phone_number = ''
+else:
+    phone_number = phone_number.group()
+print('phone number is ', phone_number)
+
+# finds sender name
+sender_name = re.search("[A-Z][a-z]+(\s[A-Z][a-z]+)+(\s?)+", txt)
+if sender_name is None:
+    sender_name = ''
+    print('BRUH')
+else:
+    sender_name = sender_name.group(1)
+    print(sender_name)
+print('sender name is ', sender_name)
+
+# splits the sections from the commennt
 for index, item in enumerate(output):
     output[index] = item.split(' - ')
 
@@ -48,7 +66,7 @@ my_sheet.cell(row = 1, column = 1 ).value = 'Departmental Comment'
 my_sheet.cell(row = 1, column = 4 ).value = 'Response to Comment'
 
 my_sheet.merge_cells('A2:C2') 
-my_sheet.cell(row = 2, column = 1 ).value = 'From: (By Email)\nContact: \nDate: 2023'
+my_sheet.cell(row = 2, column = 1 ).value = 'From: '+ sender_name +'(By Email)\nContact: '+ phone_number +'\nDate: 2023'
 my_sheet.cell(row = 2, column = 4 ).value = ""
 
 my_sheet.merge_cells('A3:C3') 
