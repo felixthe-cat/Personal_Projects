@@ -4,6 +4,7 @@ from datetime import datetime
 import openpyxl
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd 
 
 class traffic_data:
       def __init__(traffic_data, Bound, Date_and_Time, Seq_No, Lane, Speed, Class, No_of_Axle, list_of_axle_weight_and_spacing):
@@ -96,40 +97,48 @@ for file_name in file_names:
 
     output = output + tmp1
     output = output + tmp2
-    print(len(output))
+    # print(len(output))
 
 # [0-9]+-[A-z]+-[0-9]+ +[0-9]+:[0-9]+:[0-9]+
 
-# my_wb = openpyxl.Workbook()
-# my_sheet = my_wb.active
+my_wb = openpyxl.Workbook()
+my_sheet = my_wb.active
 
-# for index, item in enumerate(output): 
-#     # print(item)
-#     # sys.exit()
-#     index += 1
-#     my_sheet.cell(row = index, column = 1 ).value = item[0][4]
-#     my_sheet.cell(row = index, column = 2 ).value = item[1]
+for index, item in enumerate(output): 
+    # print(item)
+    # sys.exit()
+    index += 1
+    my_sheet.cell(row = index, column = 1 ).value = item[1]
+    for item_index, _ in enumerate(item[0]):
+        my_sheet.cell(row = index, column = item_index +1 ).value = item[0][item_index]
 
 
-# my_wb.save('Final Year Project/output.xlsx')
+my_wb.save('Final Year Project/output.xlsx')
 
-x_data = []
-y_data = []
-for item in output: 
-    x_data.append(item[0])
-    y_data.append(item[1])
+# x_data = []
+# y_data = []
+# for item in output: 
+#     if len(item[0]) <= 3: 
+#         print(len(item[0]))
+#         print(item[0])
+#         sys.exit()
+#     x_data.append(item[0][4])
+#     y_data.append(item[1])
+# print(x_data)
+# print(y_data)
 
-#* Testing!!  
-df = sns.load_dataset('iris')
+# #* Testing!!  
+# d = {'speed': x_data, 'gap distance': y_data}
+# df = pd.DataFrame(data=d)
  
-# use the function regplot to make a scatterplot
-sns.scatterplot(x=x_data,y=y_data)
+# # use the function regplot to make a scatterplot
+# sns.scatterplot(data= df, x= 'speed',y='gap distance')
  
-# make a scatterplot without regression fit
-#ax = sns.regplot(x=df["sepal_length"], y=df["sepal_width"], fit_reg=False)
+# # make a scatterplot without regression fit
+# #ax = sns.regplot(x=df["sepal_length"], y=df["sepal_width"], fit_reg=False)
 
-plt.show()
-sys.exit()
+# plt.show()
+# sys.exit()
 
 
 
