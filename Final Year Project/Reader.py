@@ -5,6 +5,11 @@ import openpyxl
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd 
+import numpy as np
+from scipy.interpolate import UnivariateSpline
+from matplotlib import pyplot as plt
+import statistics
+import scipy.stats 
 
 class traffic_data:
       def __init__(traffic_data, Bound, Date_and_Time, Seq_No, Lane, Speed, Class, No_of_Axle, list_of_axle_weight_and_spacing):
@@ -57,7 +62,7 @@ def find_gap(traffic_data: list):
         if gap_distance == 0:
             continue
         # print(gap_distance)
-        output.append([entry, format(gap_distance,".2f")])
+        output.append([entry, float(format(gap_distance,".2f"))])
         # output.append([entry[5], format(gap_distance,".2f")])
     # print(output)
     return output
@@ -77,43 +82,111 @@ def split_bound(traffic_data: list):
     return traffic_bound_1, traffic_bound_2
 
 
-file_names = ['tkb_wim-00aug23-1400 copy','tkb_wim-00aug23-2100 copy','tkb_wim-00nov21-1400 copy','tkb_wim-00nov21-2100 copy','tkb_wim-00nov21-2200 copy','tkb_wim-00nov22-0800 copy','tkb_wim-04dec30-0000 copy','tkb_wim-04dec30-0100 copy','tkb_wim-04dec30-0200 copy','tkb_wim-04dec30-0900 copy','tkb_wim-04dec30-1000 copy','tkb_wim-04dec30-1100 copy','tkb_wim-04dec30-1200 copy','tkb_wim-04dec30-1300 copy','tkb_wim-04dec30-1400 copy','tkb_wim-04dec30-1500 copy','tkb_wim-04dec30-1600 copy','tkb_wim-04dec30-1700 copy','tkb_wim-04dec30-1800 copy','tkb_wim-04dec30-1900 copy','tkb_wim-04dec30-2000 copy','tkb_wim-04dec30-2100 copy','tkb_wim-04dec30-2200 copy','tkb_wim-04dec30-2300 copy','tkb_win-00aug23-2100 copy']
-output = []
-for file_name in file_names: 
-    print('now in: '+file_name)
-    path = 'Final Year Project/WIM data/' + file_name + '.csv'
-    with open(path,'r') as f: 
-        txt = f.read()
-    pointer = 6
-    txt = txt.split("\n")
-    for index, group in enumerate(txt):
-        txt[index] = group.split(',')
-    traffic_bound_1, traffic_bound_2 = split_bound(txt)
-    # print(txt)
+def extract_data()-> list:
+    file_names = ['tkb_wim-00aug23-1400 copy','tkb_wim-00aug23-2100 copy','tkb_wim-00nov21-1400 copy','tkb_wim-00nov21-2100 copy','tkb_wim-00nov21-2200 copy','tkb_wim-00nov22-0800 copy','tkb_wim-04dec30-0000 copy','tkb_wim-04dec30-0100 copy','tkb_wim-04dec30-0200 copy','tkb_wim-04dec30-0900 copy','tkb_wim-04dec30-1000 copy','tkb_wim-04dec30-1100 copy','tkb_wim-04dec30-1200 copy','tkb_wim-04dec30-1300 copy','tkb_wim-04dec30-1400 copy','tkb_wim-04dec30-1500 copy','tkb_wim-04dec30-1600 copy','tkb_wim-04dec30-1700 copy','tkb_wim-04dec30-1800 copy','tkb_wim-04dec30-1900 copy','tkb_wim-04dec30-2000 copy','tkb_wim-04dec30-2100 copy','tkb_wim-04dec30-2200 copy','tkb_wim-04dec30-2300 copy','tkb_win-00aug23-2100 copy']
+    output = []
+    traffic_data_sorted_bound = []
+    for file_name in file_names: 
+        print('now in: '+file_name)
+        path = 'Final Year Project/WIM data/' + file_name + '.csv'
+        with open(path,'r') as f: 
+            txt = f.read()
+
+        txt = txt.split("\n")
+
+        # this is entirely diferent from extracting data
+        for index, group in enumerate(txt):
+            txt[index] = group.split(',')
+        traffic_bound_1, traffic_bound_2 = split_bound(txt)
+        # print(txt)
+        traffic_data_sorted_bound = traffic_data_sorted_bound + traffic_bound_1 + traffic_bound_2
+        output = output + find_gap(traffic_bound_1) + find_gap(traffic_bound_2)
+
+    # print(len(output))
+    # Output in the form of [traffic data sorted along sequence, gap distance]
+    # print(output)
+    return output
+
+def add_vehicular_weight(output: list)-> list:
+    for index, item in enumerate(output):
+        # format for each item [['2', '23-AUG-2000 21:59:54', '1098', '1', '78', '2', '2', '310', '0', '310', '249'], '10.83']]
+        vehicle_weight = 0
+        vehicle_axle_weight_and_spacing_list = item[0][7:]
+        for position in range(len(vehicle_axle_weight_and_spacing_list)):
+            if position % 2 == 0:
+                vehicle_weight += int(vehicle_axle_weight_and_spacing_list[position])
+        # print(vehicle_weight)
+        # print(output[index])
+        # sys.exit()
+        output[index].append(vehicle_weight)
+    return output
+
+def save_to_excel(output: list):
+    my_wb = openpyxl.Workbook()
+    my_sheet = my_wb.active
+
+    for index, item in enumerate(output): 
+        # print(item)
+        # sys.exit()
+        index += 1
+        my_sheet.cell(row = index, column = 1 ).value = item[1]
+        my_sheet.cell(row = index, column = 2 ).value = item[2]
+        for item_index, _ in enumerate(item[0]):
+            column_position = item_index + 3
+            my_sheet.cell(row = index, column = column_position ).value = item[0][item_index]
+
+    my_wb.save('Final Year Project/output.xlsx')
+    return
+
+def plot_pdf(output: list):
+    gap_distance_list = []
+    weight_list = []
+    for item in output:
+        gap_distance_list.append(float(item[1]))
+        weight_list.append(float(item[2]))
+    target_list = weight_list
+    # Define the parameters of the normal distribution
+    mean = statistics.mean(target_list)  # mean
+    sigma = statistics.stdev(target_list)  # standard deviation
+    bins = 1000
+
+    # generate random normal dataset
+    _, bins, _ = plt.hist(target_list, 200, density=1, alpha=0.5)
+    # mean, sigma = scipy.stats.norm.fit(target_list)
+    best_fit_line = scipy.stats.norm.pdf(bins, mean, sigma)
+    sns.distplot(target_list, hist=False, kde=True, rug = False, color = 'darkblue', hist_kws={'edgecolor':'black'},kde_kws={'linewidth': 4})
+    plt.plot(bins, best_fit_line)
+    plt.xlim([0,40000])
+    plt.show()
+    sys.exit()
+
+    # Generate random numbers from the normal distribution
+    x = np.random.normal(mean, sigma, 10000)
+
+    # Plot the PDF of the normal distribution                                               
+    plt.hist(target_list, bins=bins, density=True, alpha=0.6, color='g')
+
+    mu, sigma1 = scipy.stats.norm.fit(target_list)
+    best_fit_line = scipy.stats.norm.pdf(bins, mu, sigma1)
+    plt.plot(bins, best_fit_line)
+
+    plt.xlim([0,25])
+    plt.xlabel('Value')
+    plt.ylabel('Probability density')
+    plt.title('Normal distribution PDF')
+    plt.show()
+    return
+
 
     
-    tmp1 = find_gap(traffic_bound_1)
-    tmp2 = find_gap(traffic_bound_2)
+output = extract_data()
+output = add_vehicular_weight(output)
+plot_pdf(output)
+# print(output)
 
-    output = output + tmp1
-    output = output + tmp2
-    # print(len(output))
+# save_to_excel(output)
 
 # [0-9]+-[A-z]+-[0-9]+ +[0-9]+:[0-9]+:[0-9]+
-
-my_wb = openpyxl.Workbook()
-my_sheet = my_wb.active
-
-for index, item in enumerate(output): 
-    # print(item)
-    # sys.exit()
-    index += 1
-    my_sheet.cell(row = index, column = 1 ).value = item[1]
-    for item_index, _ in enumerate(item[0]):
-        my_sheet.cell(row = index, column = item_index +1 ).value = item[0][item_index]
-
-
-my_wb.save('Final Year Project/output.xlsx')
 
 # x_data = []
 # y_data = []
